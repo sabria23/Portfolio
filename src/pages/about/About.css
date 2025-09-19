@@ -1,0 +1,45 @@
+.about {
+   position: relative;
+        border-radius: 20px;
+    
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.para-container {
+    margin-left: 2rem;
+}
+
+.section-title {
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+    background: linear-gradient(135deg, #ec44ff, #2294ff, #98d6ff,  #0586ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+ 
+@media screen and (max-width: 650px) {
+
+    .about-para {
+    font-size: 20px;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+   
+
+ 
+ 
+}
