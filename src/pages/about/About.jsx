@@ -2,6 +2,7 @@ import React from "react";
 import ProfileImg from "../../assets/portaitMySelf.png";
 import "./About.css";
 
+
 export default function About() {
     return (
         <section id="about" className="about"> 

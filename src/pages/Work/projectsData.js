@@ -1,6 +1,6 @@
 import projectImg1 from "../../assets/studyPlatformLogin.png";
 import projectImg2 from "../../assets/work-Blink&Find.png";
-import projectImg3 from "../../assets/helseRettApp.png";
+import projectImg3 from "../../assets/HelseRettApp.png";
 
 const project = [
         {

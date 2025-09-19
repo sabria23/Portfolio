@@ -1,7 +1,6 @@
 import React from "react";
 import htmlIcon from "../../assets/html.png";
 import reactIcon from "../../assets/react.svg";
-
 import cssIcon from "../../assets/css.png";
 import nodeIcon from "../../assets/nodejs.png";
 import expressIcon from "../../assets/express.png";
@@ -12,6 +11,7 @@ import figmaIcon from "../../assets/figma.png";
 import visualStudioIcon from "../../assets/visualStudio.png";
 import terminalIcon from "../../assets/terminal.png";
 import "./Skills.css"
+
 
 export default function Skills() {
     return (
