@@ -1,7 +1,7 @@
 import React from "react";
 import htmlIcon from "../../assets/html.png";
 import reactIcon from "../../assets/react.svg";
-import jsIcon from "../../assets/Javascript.png";
+
 import cssIcon from "../../assets/css.png";
 import nodeIcon from "../../assets/nodejs.png";
 import expressIcon from "../../assets/express.png";
@@ -27,10 +27,7 @@ export default function Skills() {
                                     <img src={reactIcon} alt="html icon" /> 
                                     <p>React</p>
                                 </div> 
-                                <div className="skill-item">
-                                    <img src={jsIcon} alt="html icon" /> 
-                                    <p>Javascript</p>
-                                </div>
+                              
                                 <div className="skill-item">
                                     <img src={htmlIcon} alt="html icon" /> 
                                     <p>HTML</p>
