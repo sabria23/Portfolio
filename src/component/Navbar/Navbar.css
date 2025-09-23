@@ -2,6 +2,7 @@ nav {
     display: flex;
     background-color: #0d1121;
     justify-content: space-between;
+    align-items: center;
     backdrop-filter: blur(8px);
     position: fixed;
     top: 0;
@@ -38,6 +39,7 @@ nav {
 
 
 .nav-links li a {
+    position: relative;
     text-decoration: none;
     color: white;
     padding: 0.5rem 0;
@@ -58,7 +60,10 @@ nav {
     transition: width 0.3s ease;
 }
 
-.nav-links li a:hover::after,
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
 .nav-links li a:active::after {
     width: 100%;
 }

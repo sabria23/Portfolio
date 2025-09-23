@@ -6,12 +6,12 @@ const project = [
         {
             title: "Study Platform",
             image: projectImg1,
-            description: "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and coducting researchs studies.",
+            description: "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
             tags: ["React", "node", "MongoDB" ],
             projectLink: "https://github.com/sabria23/Idg2671-project",
             demo: "https://group4.sustainability.it.ntnu.no/register", 
             type: "Group",
-            role: "Register, login, user profile developing and user-testing, UI/UX design",
+            role: "Register, login, user profile front- and backend development and user-testing, UI/UX design",
             projectType: "Code",
         },
          {
@@ -28,12 +28,12 @@ const project = [
          {
             title: "HelseRett.no",
             image: projectImg3,
-            description: "Designed an accessible website to help older users explore health technologies, focusing on ease of navigation and user friendly design.",
+            description: "Designed an accessible website to help elder users explore health technologies, focusing on ease of navigation and user friendly design.",
             tags: ["Figma", "UI/UX", "Prototyping", "User Testing", "Accessibility"],
             projectLink: "https://www.figma.com/design/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?node-id=17-472&t=0I34E1aZMWKZUFLq-1",
             demo: "https://www.figma.com/proto/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?page-id=17%3A472&node-id=435-4165&starting-point-node-id=435%3A4165&t=en2b0fUCeHbY08l6-1", 
             type: "Group",
-            role: "UI/UX designer - responsible for user research, prototyping, and designing accessible, easy-to-navigate interface for older users",
+            role: "UI/UX designer - responsible for user research, prototyping, and designing accessible, easy-to-navigate interface for elder users",
             projectType: "Design",
         },
     ];

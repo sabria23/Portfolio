@@ -38,7 +38,7 @@ export default function Home() {
                     </div>
 
                     <p>
-                        I'm a frontend developer with a background in interaction designer.
+                        I'm a frontend developer, also persuing a bachelor degree in interaction design.
                         I love creating clean, user-friendly interfaces that work beautifully on all devices.
                     </p>
                     <p>
