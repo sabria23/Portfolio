@@ -19,6 +19,7 @@ nav {
     display: flex;
     font-size: 1.6rem;
     text-decoration: none;
+    width: 13%;
     color: white;
     letter-spacing: 1px;
     transition: color 0.3s ease;
@@ -36,6 +37,8 @@ nav {
     list-style: none;
     justify-content: end;
 }
+
+
 
 
 .nav-links li a {
@@ -60,11 +63,12 @@ nav {
     transition: width 0.3s ease;
 }
 
+
 .nav-links li a:hover::after {
     width: 100%;
 }
 
-.nav-links li a:active::after {
+.nav-links li a:active {
     width: 100%;
 }
 

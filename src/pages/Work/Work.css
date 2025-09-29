@@ -11,7 +11,7 @@
 .tag {
     display: inline-block;
     background: #1e293b;
-    color: #14a8d5;
+    color: #71dbfe;
     padding: 0.4rem 1rem;
     border-radius: 40px;
     font-size: 0.85rem;
@@ -31,8 +31,7 @@
 /* project role */
 .role {
     font-size: 1rem;
-    color: #76c6ff;
-    margin-bottom: 0.5rem;
+    color: #86c4fe;
 }
 
 
@@ -46,14 +45,7 @@
     
 }
 
-.desc-header {
-    color: #587CE8;
-}
-
-.desc {
-    color: black;
-}
-
+ 
 
 .project-card {
     display: flex;
