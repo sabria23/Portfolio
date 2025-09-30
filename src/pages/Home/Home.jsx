@@ -47,11 +47,9 @@ export default function Home() {
 
                     <div className="btn-action">
                         <Link to="work" smooth={true} duration={500} className="btn-work">Explore my work</Link>
-                        <Link className="btn-link">
-                            <a href="https://www.linkedin.com/in/sabrina-altahrawi-029bab1a6/" target="_blank" rel="noopener noreferrer">
+                            <a className="btn-link" href="https://www.linkedin.com/in/sabrina-altahrawi-029bab1a6/" target="_blank" rel="noopener noreferrer">
                                     Linkedln
                             </a>
-                        </Link>
                         
                     </div>
                 </div>
