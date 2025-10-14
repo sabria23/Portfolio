@@ -11,11 +11,13 @@ import figmaIcon from "../../assets/figma.png";
 import visualStudioIcon from "../../assets/visualStudio.png";
 import terminalIcon from "../../assets/terminal.png";
 import "./Skills.css"
+import ScrollReveal from "../../component/ScrollReveal";
 
 
 export default function Skills() {
     return (
         <section id="skills" className="skills">
+            <ScrollReveal>
             <h1 className="section-title">My skills</h1>
             <div className="skills-grid">
 
@@ -97,6 +99,7 @@ export default function Skills() {
 
                     
             </div> 
+            </ScrollReveal>
         </section>
     );
 }

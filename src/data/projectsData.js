@@ -1,10 +1,11 @@
-import projectImg1 from "../../assets/studyPlatformLogin.png";
-import projectImg2 from "../../assets/work-Blink&Find.png";
-import projectImg3 from "../../assets/HelseRettApp.png";
-import projectImg4 from "../../assets/samfundet.png";
+import projectImg1 from "../assets/studyPlatformLogin.png";
+import projectImg2 from "../assets/work-Blink&Find.png";
+import projectImg3 from "../assets/HelseRettApp.png";
+import projectImg4 from "../assets/samfundet.png";
 
 const project = [
         {
+            id: "study-platform",
             title: "Study Platform",
             image: projectImg1,
             description: "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
@@ -16,6 +17,7 @@ const project = [
             projectType: "Code",
         },
          {
+            id: "samfundet",
             title: "Samfundet",
             image: projectImg4,
             description: "The project involved redesigning the website for Samfundet Gjøvik, focusing on accessibility, usability, and consistent design. Delivered a responsive hi-fi prototype in Figma for desktop and mobile, supported by research and heuristic evaluation.",
@@ -27,6 +29,7 @@ const project = [
             projectType: "Design",
         },
         {
+            id: "blink-find",
             title: "Blink & find",
             image: projectImg2,
             description: "Blink & Find is a multiplayer game where players compete to find item in the picture within a time limit. The game is designed to be engaging and fun, encouraging quick observation and attention to detail.",
@@ -38,6 +41,7 @@ const project = [
             projectType: "Design",
         },
          {
+            id: "blink-find",
             title: "HelseRett.no",
             image: projectImg3,
             description: "Designed an accessible website to help elder users explore health technologies, focusing on ease of navigation and user friendly design.",

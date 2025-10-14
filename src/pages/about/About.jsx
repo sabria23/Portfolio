@@ -1,14 +1,17 @@
 import React from "react"; 
 import ProfileImg from "../../assets/portaitMySelf.png";
 import "./About.css";
+import ScrollReveal from "../../component/ScrollReveal";
 
 
 export default function About() {
     return (
-        <section id="about" className="about"> 
+     
+        <section id="about" className="about">   
+        <ScrollReveal> 
             <div className="container">
                 <div className="contact-content">
-                    <h2 className="section-title">About me</h2>
+                    <h2 className="section-title">About Me</h2>
                     
                     <div className="para-container">
                         <p className="about-role">
@@ -22,6 +25,7 @@ export default function About() {
                     
                 </div>
             </div>
+            </ScrollReveal>
         </section>
     )
 }

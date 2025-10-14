@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav id="nav">
         <div className="nav-container">
-     <a href="#" className="logo-link">Portfolio</a>
+            <a href="#" className="logo-link">Portfolio</a>
             
             <div className="menu"
             onClick={() => {

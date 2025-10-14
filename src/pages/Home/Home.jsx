@@ -4,6 +4,8 @@ import profileImg from "../../assets/MyPicture.png";
 // import animateImg from "../../assets/portaitMySelf.png";
 import { Link } from "react-scroll";
 
+import ScrollReveal from "../../component/ScrollReveal";
+
 
 
 export default function Home() {
@@ -26,8 +28,9 @@ export default function Home() {
     }, []);
 
     return (
-            <section id="home" className="home-container"> 
-                <div className="main-text">
+            <section id="home" className="home-container">
+               
+                <div className="main-text"> 
                     <h1>Hi</h1>
                     <h2>I'm Sabrina</h2> 
 
@@ -36,7 +39,7 @@ export default function Home() {
                             <span className="text first-text">And I'm </span>
                             <span className="text sec-text" ref={textRef}></span>
                     </div>
-
+                    
                     <p>
                         I'm a frontend developer, also persuing a bachelor degree in interaction design.
                         I love creating clean, user-friendly interfaces that work beautifully on all devices.
@@ -58,6 +61,7 @@ export default function Home() {
                     <img src={profileImg} alt="Portait of Sabrina" />
                     {/* <img src={animateImg} alt="" className="animateImg-back" /> */}
                 </div>
+               
             </section>
     )
 }

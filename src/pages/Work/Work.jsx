@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import project from "./projectsData";
+import project from "../../data/projectsData";
 import "./Work.css";
+import ScrollReveal from "../../component/ScrollReveal";
 
 export const MyWork = () => {
 
@@ -34,8 +35,10 @@ export const MyWork = () => {
         }
     }
 
+
     return (
         <section id="work" className="projects">
+            <ScrollReveal>
             <div>
                 <h1 className="section-title">My latest work</h1>
 
@@ -86,6 +89,7 @@ export const MyWork = () => {
                                         </a>
                                     )}
                                 </div>
+                               {/* <Link to={`/project/${project.id}`} className="readMore">Read more <span className="arrow"></span></Link> */}
                             </div>
                         </div>
                         
@@ -93,7 +97,7 @@ export const MyWork = () => {
                     ))}
                 </div>
             </div>
-             
+             </ScrollReveal>
         </section>
     );
 };

@@ -1,40 +1,48 @@
 .about {
-   position: relative;
-        border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
+    scroll-snap-align: start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.container {
+    max-width: 700px;
+   
+
+}
 
 .para-container {
-    margin-left: 3rem;
-    max-width: 700px;
+   
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.para-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6)
+}
+
 
 .about-description {
     line-height: 1.6;
     max-width: 600px;
 }
 
-.section-title {
-    margin: 2rem;
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 4rem;
-    background: linear-gradient(135deg, #ec44ff, #2294ff, #98d6ff,  #0586ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
+
 
  
 @media screen and (max-width: 650px) {
 
-    .about-para {
-    font-size: 20px;
-    margin: 1rem;
-    margin-bottom: 4rem;
-    
+ .about {
+    margin-right: 2rem;
 }
 
 

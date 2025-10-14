@@ -4,9 +4,48 @@
   box-sizing: border-box;
 }
 
+
+
+:root {
+  --page-bg:  radial-gradient(125% 125% at 50% 10%, #000 50%, #0063ff 100%);
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 4rem;
+    background: linear-gradient(135deg, #ec44ff, #2294ff, #98d6ff,  #0586ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 0 12px;
+    margin: 1rem;
+  }
+
+  .section-title {
+   
+    padding-bottom: 1rem;
+}
+}
+
 body {
   font-family: "outfit";
-  background: linear-gradient(#13182c, #13182c, #0a0a0a);
+  background: var(--page-bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
   color: white;
 }
 

@@ -14,15 +14,14 @@ function App() {
 
   return (
       <BrowserRouter>
-        <div>
+        <div className="page-container">
           <Navbar />
-          <Home />
-          <Work />
-          <About />
-          <Skills />
-          
-          <Footer />
-        </div>
+            <Home />
+            <Work />
+            <About />
+            <Skills />
+        </div> 
+        <Footer />
       </BrowserRouter> 
   )
 }
