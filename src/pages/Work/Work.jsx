@@ -39,7 +39,7 @@ export const MyWork = () => {
     return (
         <section id="work" className="projects">
             <ScrollReveal>
-            <div>
+            <div className="project-section"> 
                 <h1 className="section-title">My latest work</h1>
 
                 <div className="project-grid">
