@@ -188,6 +188,7 @@
         height: 100%;
     }
 
+
  
  
 
@@ -210,6 +211,9 @@
         height: auto;
     }
 
+    .project-section {
+        margin-top: 2rem;
+    }
  
   
 }

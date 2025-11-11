@@ -1,11 +1,4 @@
-.about {
-    position: relative;
-    display: flex;
-    flex-direction: column;
 
-    scroll-snap-align: start;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
 .container {
     max-width: 1200px;
@@ -14,17 +7,30 @@
 }
 
 .para-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.about-card {
+    
     margin-top: 1rem;
     background: rgba(255, 255, 255, 0.08);
     padding: 2rem 2rem;
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
-.para-container:hover {
-    transform: translateY(-10px);
+.about-card p{
+    margin-top: 1rem;
+     color: #c5d4e3;
+}
+
+.about-card:hover {
+
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6)
 }
 
@@ -35,12 +41,118 @@
 }
 
 
+/* education */
+
+.education {
+
+    margin-top: 3rem;
+    position: relative;
+   
+
+}
+
+.education-title {
+     font-size: 2.5rem;
+}
+
+
+.education-item {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem;
+    margin-top: 1rem;
+    
+    position: relative;
+    margin-bottom: 2rem;
+     padding-left: 1.5rem;
+    border-left: 2px solid #e5e7eb;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.education-item:hover {
+    
+    border-left: 2px solid #8ab1ff;
+    border-bottom: 2px solid #8ab1ff;
+    box-shadow: 0 4px 12px rgba(145, 133, 133, 0.25);
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.education-period {
+    background-color: #e0f7ef;
+    color: #007f5f;
+    font-size: 0.95rem;
+    border-radius: 1rem;
+    padding: 0.3rem 0.75rem;
+}
+
+.education-location {
+    color: #dbd6d6;
+    font-size: 0.95rem;
+}
+
+.education-description {
+    margin-top: 0.7rem;
+    color: #d6d5d5;
+    line-height: 1.6;
+}
+
+/* resume */
+.resume-section {
+    background-color: rgb(36, 31, 42);
+    padding: 1rem;
+}
+
+.cv-download {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.resume-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.resume-para {
+    font-size: 1.2rem;
+}
+
+.cv-button {
+    display: inline-block;
+    background-color: #09399b;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 2.6rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cv-button:hover {
+    background-color: #053d79;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+
 @media screen and (max-width: 650px) {
 
     .about {
         margin-right: 2rem;
 }
 
+.para-container {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+}
 
 }
 
@@ -49,7 +161,10 @@
 
 @media screen and (max-width: 1000px) {
    
-
+.para-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
  
  
 }

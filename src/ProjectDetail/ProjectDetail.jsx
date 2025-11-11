@@ -1,9 +1,9 @@
 import React from "react";
-import project from "../data/projectsData";
+
 
 import "./ProjectDetail.css";
 import { useParams } from "react-router-dom";
-import project from "../data/projectsData";
+
 
 export const ProjectDetail = () => {
     const { id } = useParams();

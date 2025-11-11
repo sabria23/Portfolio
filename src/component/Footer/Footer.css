@@ -13,5 +13,65 @@
     font-size: 1rem;
 }
 
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.contacts{
+    margin-top: 1rem;
+    position: relative;
+  
+    border: 1px solid transparent;
+        
+        border-radius: 20px;
+        padding: 1rem;
+   
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.contacts p{
+    color: #96a1ac;
+}
+
+.contactLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    flex-direction: column;
+    margin: 0 auto;
+    transition: transform 2s;
+    
+}
+
+.contactLogo:hover {
+    transform: rotate(180deg);
+}
+
+.targetContact {
+    cursor: pointer;
+}
+
+.contactTitle {
+    margin-top: 0;
+}
 
 
+
+@media screen and (max-width: 1000px) {
+   
+.contact-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+}
+ 
+ 
+}

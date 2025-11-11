@@ -1,6 +1,6 @@
 .skill-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 1rem;
 }
@@ -15,15 +15,23 @@
         border-radius: 20px;
         padding: 1rem;
         box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        
 }
 
-.skill-card:hover {
-    background: linear-gradient(135deg, #1b1336, #0e183b,  #0c0724);
-        border: 2px solid rgba(40, 122, 245, 0.2);
-        box-shadow: 0 40px 65px rgba(17, 94, 182, 0.2);
-        border-radius: 20px;
-        padding: 1rem;
-        
+.skillicon-container {
+    display: flex;
+    flex-direction: rows;
+    margin-bottom: 1rem;
+}
+
+.skillicon-container p{
+    margin-left: 1rem;
+}
+
+.rating {
+    width: 50px;
+    height: 20px;
+    color: blue;
 }
 
 .skills-container {
@@ -51,11 +59,11 @@
 
 
 .skills-grid {
-    display: grid;
-    padding-bottom: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2.5rem;
-    
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+ 
+    margin-bottom: 2rem;
 }
 
 
@@ -64,11 +72,46 @@
     
 }
 
+
+.rating-container {
+    width: 100%;
+    background-color: #35323e;
+    border-radius: 20px;
+    
+}
 .skill-item p {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
 
+.ratingSkill {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 20px;
+    background-color: #3e1bbe;
+}
+
+.css, .html {
+    width: 98%;
+}
+
+.react {
+    width: 76%;
+}
+
+.nodeJS, .express, .docker, .javascript {
+    width: 56%;
+}
+
+.mongoDB {
+    width: 66%;
+}
+
+.figma, .vsCode, .terminal {
+    width: 96%;
+}
 
 @media screen and (max-width: 1000px) {
     .skills-section {
@@ -100,16 +143,10 @@
 }
 
 @media screen and (max-width: 650px) {
-    .skill-card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }
 
     .skills-grid {
-        justify-content: center;
-        margin: 0 auto;
+         display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
