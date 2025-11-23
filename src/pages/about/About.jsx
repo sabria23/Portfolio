@@ -83,7 +83,7 @@ export default function About() {
                        <section className="resume-section">
                             <div className="cv-download">
                                 <h2 className="resume-title">CV</h2>
-                                <p className="resume-para">You can download my resume to learn more about my background, education, and experience</p>
+                                <p className="resume-para">You can download my CV to learn more about my background, education, and experience</p>
                                 <a href={CV} download="Sabrina_Altahrawi_CV.pdf" className="cv-button">Download CV</a>
                             </div>
                        </section>
