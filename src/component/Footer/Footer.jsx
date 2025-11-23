@@ -11,9 +11,10 @@ export default function Footer() {
     return (
     <footer className="footer">
         <section id="footer">
-            <div className="container">
-                <div className="contact"> 
-                    <ScrollReveal> 
+             <ScrollReveal> 
+                <div className="container">
+                    <div className="contact"> 
+                   
                                 <h1 className="section-title contactTitle">Contact me</h1>
                                 <hr />
                                 <div className="contact-container">
@@ -40,12 +41,13 @@ export default function Footer() {
                                             <h2>Linkedin</h2>
                                         </div> 
                                 
-                                </div> 
-                                </ScrollReveal>  
-                            </div> 
+                        </div> 
+                              
+                    </div> 
                    
-                <p>@copy 2025 by Sabrina Altahrawi</p>
-            </div>  
+                <p>@copy 2025 by Sabrina Altahrawi</p>   
+            </div>   
+            </ScrollReveal>
         </section>
     </footer>
     );
