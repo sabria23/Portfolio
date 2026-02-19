@@ -92,11 +92,11 @@
     display: inline-block;
     padding: 0.4rem 1rem;
     margin: 10px 10px 10px 0;
-    background: #1e293b;
-    color: #71dbfe;
-    border-radius: 40px;
+    background: #384862;
+    color: #fcfeff;
+    border-radius: 5px;
     font-size: 0.85rem;
-    border: 1px solid rgba(17, 94, 182, 0.3);
+
 }
 
 /* Knappseksjon */
@@ -166,6 +166,29 @@
 
 .desc-link a:hover .arrow {
     transform: rotate(-45deg) translate(4px, 4px);
+}
+
+.category-buttons button {
+    margin-right: 8px;
+    padding: 7px 12px;
+    border: none;
+    background: #aedeff;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.type-category {
+    background: #a5692d;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.category-buttons button.active {
+    background-color: #1689ed;
+    color: white;
 }
 
 /* Responsivt */

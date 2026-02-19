@@ -24,20 +24,12 @@
 .contacts{
     margin-top: 1rem;
     position: relative;
-  
     border: 1px solid transparent;
-        
-        border-radius: 20px;
-        padding: 1rem;
-   
-
+    border-radius: 20px;
+    padding: 1rem;
     display: flex;
     text-align: center;
     flex-direction: column;
-}
-
-.contacts p{
-    color: #b4bfca;
 }
 
 .contactLogo {
@@ -47,6 +39,7 @@
     text-align: center;
     width: 20%;
     flex-direction: column;
+    cursor: pointer;
     margin: 0 auto;
     transition: transform 2s;
     
@@ -64,14 +57,24 @@
     margin-top: 0;
 }
 
+.footer-heading {
+    color: rgb(25, 143, 253);
+}
+
+.footer-content{
+    color: #fcfeff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-content:hover{
+    color: #3cb4f0;
+}
 
 
 @media screen and (max-width: 1000px) {
-   
 .contact-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
- 
- 
 }

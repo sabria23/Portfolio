@@ -23,11 +23,72 @@ export default function Navbar() {
 
             <ul className={`nav-links ${isOpen ? "open" : ""}`}>       
                 
-                <li><a href="#home">Home</a></li>
-                <li><a href="#work">Project</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#footer">Contact me</a></li>
+                <li>
+                    <Link
+                        className="nav-link"
+                        to="home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        activeClass="active"
+                    >
+                        Home
+                    </Link>
+                </li>
+                 <li>
+                    <Link
+                        className="nav-link"
+                        to="work"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        activeClass="active"
+                    >
+                        Project
+                    </Link>
+                </li>
+
+                <li>
+                    <Link
+                        className="nav-link"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        activeClass="active"
+                    >
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        className="nav-link"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        activeClass="active"
+                    >
+                        Skills
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        className="nav-link"
+                        to="footer"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        activeClass="active"
+                    >
+                        Contact me
+                    </Link>
+                </li>
             </ul>
         </div>
     </nav>

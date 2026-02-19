@@ -18,7 +18,7 @@ export default function Skills() {
     return (
         <section id="skills" className="skills">
             <ScrollReveal>
-            <h1 className="section-title">My skills</h1>
+            <h1 className="section-title">Skills & Technologies</h1>
             <div className="skills-grid">
 
                 {/* Frontend Skills */}
