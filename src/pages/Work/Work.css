@@ -19,7 +19,7 @@
     border-radius: 20px;
     padding: 1rem;
     background: 
-        linear-gradient(#17233d, #17233d) padding-box,
+        linear-gradient(#17233d, #263555) padding-box,
         linear-gradient( #0d6ea2, #a813a8) border-box;
     transition: all 0.3s ease;
 }
