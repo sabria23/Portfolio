@@ -2,8 +2,23 @@ import projectImg1 from "../assets/studyPlatformLogin.png";
 import projectImg2 from "../assets/work-Blink&Find.png";
 import projectImg3 from "../assets/HelseRettApp.png";
 import projectImg4 from "../assets/samfundet.png";
+import projectImg6 from "../assets/Telenor_bk.png";
+import projectImg7 from "../assets/spanishPoker_bk.png";
 
 const project = [
+         {
+            id: "bachelor-thesis",
+            title: "Bachelor Thesis",
+            category: "Development",
+            image: projectImg6,
+            description: "How can a shared, web-based knowledge platform for Telenor be designed to support customer self-service as well as troubleshooting by both customers and customer service agents, while ensuring that the platform is perceived as consistent, efficient, and trustworthy?",
+            tags: ["Fullstack", "Prototyping", "Accessibility", "User Research", "Responsive Design"],
+            projectLink: "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
+            demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
+            type: "Group",
+            role: "Full-stack Developer & UX Designer",
+            projectType: "code",
+        },
         {
             id: "study-platform",
             title: "Study Platform",
@@ -13,6 +28,20 @@ const project = [
             tags: ["React", "node", "MongoDB" ],
             projectLink: "https://github.com/sabria23/Idg2671-project",
             demo: "https://group4.sustainability.it.ntnu.no/register", 
+            type: "Group",
+            role: "Full-stack Developer & UX Designer",
+            projectType: "code",
+        },
+       
+        {
+            id: "fdsf",
+            title: "Dice",
+            category: "Development",
+            image: projectImg7,
+            description: "How can a shared, web-based knowledge platform for Telenor be designed to support customer self-service as well as troubleshooting by both customers and customer service agents, while ensuring that the platform is perceived as consistent, efficient, and trustworthy?",
+            tags: ["Fullstack", "Prototyping", "Accessibility", "User Research", "Responsive Design"],
+            projectLink: "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
+            demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
