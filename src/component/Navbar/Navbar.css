@@ -96,6 +96,11 @@ nav {
     transition: all 0.3s ease;
 }
 
+ .logo-navbar {
+        width: 6vw;
+    }
+
+
 @media screen and (max-width: 750px) {
     .menu {
         display: flex;
@@ -115,7 +120,6 @@ nav {
         background-color: rgba(13, 17, 33, 0.99);
         animation: slideDown 0.3s ease forwards;
     }
-
 
     .nav-links.open {
         display: flex;

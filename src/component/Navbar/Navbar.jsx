@@ -1,6 +1,7 @@
 import React, { useState } from "react"; 
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import logoLink from "../../assets/SabrinaLogo.png";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ export default function Navbar() {
     return (
         <nav id="nav">
         <div className="nav-container">
-            <a href="#" className="logo-link">Sabrina</a>
+            <img className="logo-navbar" src={logoLink} alt="Logo" />
             
             <div className="menu"
             onClick={() => {
