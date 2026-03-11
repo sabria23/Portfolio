@@ -97,8 +97,10 @@ nav {
 }
 
  .logo-navbar {
-        width: 6vw;
+        width: 6rem;
+
     }
+
 
 
 @media screen and (max-width: 750px) {
