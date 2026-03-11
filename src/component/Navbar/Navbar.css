@@ -102,6 +102,10 @@ nav {
 
 
 @media screen and (max-width: 750px) {
+    .logo-navbar {
+        width: 6rem;
+    }
+
     .menu {
         display: flex;
         float: right;

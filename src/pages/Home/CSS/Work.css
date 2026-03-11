@@ -186,6 +186,11 @@
     border-radius: 5px;
 }
 
+.btn-readMore {
+    background-color: #1689ed;
+    color: white;
+}
+
 .category-buttons button.active {
     background-color: #1689ed;
     color: white;

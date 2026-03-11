@@ -1,6 +1,6 @@
 import React from "react";
 import ProfileImg from "../../assets/portaitMySelf.png";
-import "./About.css";
+import "./CSS/About.css";
 import ScrollReveal from "../../component/ScrollReveal";
 
 import CV from "../../assets/CV Sabrina Altahrawi.pdf";

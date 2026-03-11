@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./CSS/Home.css";
 import { useEffect, useRef } from "react";
 import profileImg from "../../assets/MyPicture.png";
 // import animateImg from "../../assets/portaitMySelf.png";
@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                 
                 <div className="profile-container">
-                    <img src={profileImg} alt="Portait of Sabrina" />
+                    <img className="id-card" src={profileImg} alt="Portait of Sabrina" />
                     {/* <img src={animateImg} alt="" className="animateImg-back" /> */}
                 </div>
                

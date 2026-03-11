@@ -1,14 +1,25 @@
+html, body, #root{
+  height: 100%;
+  margin: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
 :root {
   --page-bg:  radial-gradient(125% 125% at 50% 10%, #000 50%, #0063ff 100%);
 }
+
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* #ec44ff */
 .section-title {
     font-size: 3rem;
@@ -25,11 +36,15 @@
   margin: 0 auto;
   padding: 0 10px;
   box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 
 @media (max-width: 768px) {
   .page-container {
+    flex: 1;
     padding: 0 12px;
     margin: 1rem;
   }

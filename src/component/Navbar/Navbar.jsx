@@ -22,8 +22,7 @@ export default function Navbar() {
                 <span></span>
             </div>
 
-            <ul className={`nav-links ${isOpen ? "open" : ""}`}>       
-                
+            <ul className={`nav-links ${isOpen ? "open" : ""}`}>    
                 <li>
                     <Link
                         className="nav-link"
@@ -90,6 +89,7 @@ export default function Navbar() {
                         Contact me
                     </Link>
                 </li>
+                
             </ul>
         </div>
     </nav>

@@ -1,0 +1,64 @@
+/* ProjectPage.css */
+.project-detail {
+  padding-top: 70px; /* høyden på navbar */
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.project-detail h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.project-tags {
+  margin-bottom: 20px;
+}
+
+.project-tags span {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.project-detail p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project-detail a {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.2s;
+}
+
+.project-detail a:hover {
+  color: #0056b3;
+}
+
+.project-detail a.readMore,
+.project-detail a.demo {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.project-detail a.readMore:hover,
+.project-detail a.demo:hover {
+  background: #0056b3;
+}
+
+.project-detail a:last-child {
+  margin-top: 30px;
+  display: inline-block;
+}

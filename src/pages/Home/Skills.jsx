@@ -10,7 +10,7 @@ import javascriptIcon from "../../assets/javascript.png";
 import figmaIcon from "../../assets/figma.png";
 import visualStudioIcon from "../../assets/visualStudio.png";
 import terminalIcon from "../../assets/terminal.png";
-import "./Skills.css"
+import "./CSS/Skills.css"
 import ScrollReveal from "../../component/ScrollReveal";
 
 
