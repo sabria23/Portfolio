@@ -1,6 +1,6 @@
 import React,  { useState } from "react";
 import { Link } from "react-router-dom";
-import project from "../../Data/projectsData";
+import project from "../../DataProject/projectsData";
 import "./CSS/Work.css";
 import ScrollReveal from "../../component/ScrollReveal";
 import CategoryButtons from "./CategoryButtons";
