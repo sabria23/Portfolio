@@ -7,7 +7,8 @@ Hi! I am Sabrina, a Fullstack developer & UX Designer passionate about building 
 - Passionate about designing intuitive user experienes and responsive web applications
 
 ## Live Portfolio
-Check out my live portfolio here: [sabria.no]
+Check out my live portfolio her
+[sabria.no]
 
 ## Contact
 - Email: sabrina130102@gmail.com
