@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import projectPageData from "../../Data/projectInfoData";
+import projectPageData from "../../Data/projectInfoData.jsx";
 import "./ProjectPage.css";
 
 export default function ProjectPage() {
