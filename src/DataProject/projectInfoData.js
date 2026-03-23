@@ -5,19 +5,21 @@ import projectImg4 from "../assets/samfundet.png";
 import projectImg6 from "../assets/Telenor_bk.png";
 import projectImg7 from "../assets/spanishPoker_bk.png";
 
+
 const project = [
-         {
+        {
             id: "bachelor-thesis",
             title: "Bachelor Thesis",
             category: "Development",
             image: projectImg6,
             description: "How can a shared, web-based knowledge platform for Telenor be designed to support customer self-service as well as troubleshooting by both customers and customer service agents, while ensuring that the platform is perceived as consistent, efficient, and trustworthy?",
             tags: ["Fullstack", "Prototyping", "Accessibility", "User Research", "Responsive Design"],
-            projectLink: "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
-            demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
+            projectLink: "https://github.com/sabria23/Idg2671-project",
+            demo: "https://group4.sustainability.it.ntnu.no/register", 
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "progress"
         },
         {
             id: "study-platform",
@@ -31,10 +33,11 @@ const project = [
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "finish"
         },
        
         {
-            id: "fdsf",
+            id: "poker",
             title: "Dice",
             category: "Development",
             image: projectImg7,
@@ -45,6 +48,7 @@ const project = [
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "finish"
         },
         {
             id: "samfundet",
@@ -58,6 +62,7 @@ const project = [
             type: "Group",
             role: "UX designer & Accessibility ",
             projectType: "design",
+            status: "finish"
         },
         {
             id: "blink-find",
@@ -71,6 +76,7 @@ const project = [
             type: "Group",
             role: "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
             projectType: "design",
+            status: "finish"
         },
         {
             id: "helserett.no",
@@ -84,6 +90,7 @@ const project = [
             type: "Group",
             role: "UI/UX designer - responsible for user research, prototyping, creating component and designing accessible, easy-to-navigate interface for elder users",
             projectType: "design",
+            status: "finish"
         },
     ];
 

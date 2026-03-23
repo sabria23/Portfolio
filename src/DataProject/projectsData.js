@@ -18,6 +18,7 @@ const project = [
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "progress"
         },
         {
             id: "study-platform",
@@ -31,10 +32,11 @@ const project = [
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "finish"
         },
        
         {
-            id: "fdsf",
+            id: "poker",
             title: "Dice",
             category: "Development",
             image: projectImg7,
@@ -45,6 +47,7 @@ const project = [
             type: "Group",
             role: "Full-stack Developer & UX Designer",
             projectType: "code",
+            status: "progress"
         },
         {
             id: "samfundet",
@@ -58,6 +61,8 @@ const project = [
             type: "Group",
             role: "UX designer & Accessibility ",
             projectType: "design",
+            status: "finish"
+
         },
         {
             id: "blink-find",
@@ -71,6 +76,7 @@ const project = [
             type: "Group",
             role: "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
             projectType: "design",
+            status: "finish"
         },
         {
             id: "helserett.no",
@@ -84,6 +90,7 @@ const project = [
             type: "Group",
             role: "UI/UX designer - responsible for user research, prototyping, creating component and designing accessible, easy-to-navigate interface for elder users",
             projectType: "design",
+            status: "finish"
         },
     ];
 

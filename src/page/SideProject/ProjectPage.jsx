@@ -4,65 +4,75 @@ import "./ProjectPage.css";
 
 export default function ProjectPage() {
   const { id } = useParams();
-  const project = projectPageData.find(p => p.id === id);
+  const project = projectPageData.find((p) => p.id === id);
 
   if (!project) return <p>Project not found</p>;
 
-   const renderLink = (project) => {
-        if (project.projectType.toLowerCase() === "design" && project.projectLink) {
-            return (
-                <a 
-            target="_blank" 
-            href={project.projectLink} 
-            rel="noopener noreferrer"
-            className="readMore"
-                >
-                Figma<span className="arrow"></span>
-            </a>
-            );
-        } else if (project.projectType.toLowerCase() === "code" && project.projectLink) {
-            return (
-                <a
-                href={project.projectLink}
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="readMore"
-                >
-                Github <span className="arrow"></span>
-            </a>
-            )
-            
-        } else {
-            return null;
-        }
-    }
+    const isfinished = project.status?.toLowerCase() === "finish";
 
-  return (
+    return (
     <section className="project-detail">
-      <h1>{project.title}</h1>
-      <div className="project-tags">
-        {project.tags.map((tag, i) => <span key={i}>{tag}</span>)}
-      </div>
-      <p>{project.description}</p>
-      {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Demo</a>}
-      {project.projectLink && <a href={project.projectLink} target="_blank" rel="noopener noreferrer">Project Link</a>}
+        <Link to="/" className="back-btn">
+        Back to main</Link> 
+        <h1>{project.title}</h1>
 
+        <div className="project-tags">
+        {project.tags.map((tag, i) => (
+            <span key={i}>{tag}</span>
+        ))}
+        </div>
 
-       <div className="desc-link">
-                                        {renderLink(project)}
+        <p>{project.description}</p>
+        
+        {!isfinished && (
+            <div className="project-status">
+                <span className="in-progress">{project.status || "progress"}</span>
+                <p className="status-message">
+                {project.message ||
+                    "This project is still under development and will be available soon."}
+                </p>
+            </div>
+        )}
 
-                                        {project.demo && (
-                                        
-                                            <a href={project.demo} 
-                                            className="demo" 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                            >
-                                                Live Demo <span className="arrow"></span>
-                                            </a>
-                                        )}
-                                    </div>
-      <Link to="/">← Back to main</Link>
-    </section>
-  );
+        {isfinished && (
+            <div className="desc-link">
+                {/* Live Demo */}
+                {project.demo && (
+                    <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="demo"
+                    >
+                    Live Demo <span className="arrow"></span>
+                    </a>
+                )}
+
+                {/* Github for code */}
+                {project.projectType.toLowerCase() === "code" && project.projectLink && (
+                    <a
+                        href={project.projectLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="readMore"
+                    >
+                        Github <span className="arrow"></span>
+                    </a>
+                )}
+
+                {/* Figma for design */}
+                {project.projectType.toLowerCase() === "design" && project.projectLink &&(
+                    <a
+                        href={project.projectLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="readMore"
+                    >
+                        Figma <span className="arrow"></span>
+                    </a>
+                    )}
+                </div>
+            )}
+        </section>
+    );
 }

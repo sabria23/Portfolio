@@ -218,11 +218,12 @@
 
 .text {
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 1.2rem; 
 }
 
 .text.sec-text {
     padding-left: 5px;
+    font-size: 1.2rem;
 }
 
 }
@@ -246,7 +247,6 @@
     .main-text {
     order: 2;
         text-align: left;
-         
         
     }
 
@@ -257,7 +257,6 @@
 
     .profile-container img{
         max-width: 350px;
-        margin-top: 30%;
     }
 
     .btn-action {

@@ -3,8 +3,8 @@ import React from "react";
 export const CategoryButtons = ({activeCategory, setActiveCategory}) => {
         
     const filterButton = [
-        { id: 1, label: "All Project", category: "all"},
-        { id: 2, label: "Design", category: "design"},
+        { id: 1, label: "All Projects", category: "all"},
+        { id: 2, label: "UX / Interaction Design", category: "design"},
         { id: 3, label: "Development", category: "code"},
     ];
 

@@ -12,6 +12,7 @@
   margin-bottom: 20px;
 }
 
+/* Tags */
 .project-tags {
   margin-bottom: 20px;
 }
@@ -27,38 +28,127 @@
   margin-bottom: 8px;
 }
 
+/* Text */
 .project-detail p {
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
+/* Links */
 .project-detail a {
   display: inline-block;
   text-decoration: none;
-  color: #007bff;
   font-weight: 500;
   margin-right: 15px;
   transition: color 0.2s;
 }
 
-.project-detail a:hover {
-  color: #0056b3;
+/* .readMore{
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #fff;
+} */
+
+.project-detail a {
+  text-decoration: none;
+  font-weight: 500;
 }
 
+/* button container */
+.desc-link {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* All buttons */
 .project-detail a.readMore,
 .project-detail a.demo {
-  background: #007bff;
-  color: #fff;
-  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.6em 1.5em;
   border-radius: 6px;
+  min-height: 40px;
+
+  transition: all 0.25s ease;
+  cursor: pointer;
 }
 
-.project-detail a.readMore:hover,
-.project-detail a.demo:hover {
-  background: #0056b3;
+/* primary button */
+.project-detail a.readMore{
+   background-color: #0465cd;
+   color: white;
 }
 
-.project-detail a:last-child {
-  margin-top: 30px;
+/* secondary button */
+.project-detail a.demo {
+  background: transparent;
+  border: 2px solid #205fe7;
+  color: #ffffff;
+}
+
+/* Hover effect */
+.project-detail a.readMore:hover{
+  transform: translateY(-2px);
+  background: #007bff;
+  box-shadow: 0 8px 20px rgba(37, 99, 234, 0.4);
+}
+
+.project-detail a.demo:hover{
+  background: #205fe7;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 234, 0.4);
+}
+
+.arrow {
+  width: 6px;
+  height: 6px;
+  transform: rotate(-45deg);
+  margin-left: 8px;
+  transform: transform 0.2s ease;
+}
+
+.project-detail a:hover .arrow {
+  transform: rotate(-45deg) translate(3px, 3px);
+}
+
+.in-progress {
   display: inline-block;
+  background-color: #F8A025;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5em 1em;
 }
+
+.status-message {
+  font-size: 1em;
+  color: #e7e5e5;
+  margin-top: 0.3em;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #48c4ed;
+  font-weight: 500;
+  transition: translateX(-3px) ease;
+}
+
+.back-btn::before {
+  content: "←";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.back-btn:hover {
+  color: #3d97ec;
+    transform: translateX(-4px);
+}
+
+ 
