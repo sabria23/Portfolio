@@ -8,7 +8,7 @@ export default function ProjectPage() {
   const project = projectPageData.find((p) => p.id === id);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" })
+    window.scrollTo(0, 0)
   }, [id]);
 
   if (!project) return <p>Project not found</p>;
