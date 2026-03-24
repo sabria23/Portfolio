@@ -6,8 +6,6 @@ import { Link } from "react-scroll";
 
 import ScrollReveal from "../../component/ScrollReveal";
 
-
-
 export default function Home() {
     const textRef = useRef(null);
 
@@ -29,7 +27,6 @@ export default function Home() {
 
     return (
             <section id="home" className="home-container">
-               
                 <div className="main-text"> 
                     <h1>Hi</h1>
                     <h2>I'm Sabrina</h2> 
@@ -41,8 +38,9 @@ export default function Home() {
                     </div>
                     
                     <p>
-                        I'm a frontend developer, also persuing a bachelor degree in interaction design.
-                        I love creating clean, user-friendly interfaces that work beautifully on all devices.
+                        Frontend developer pursuing a bachelor's degree in interaction design.
+                        I'm passionate about building clean, intuitive and accessible user interfaces that deliver great experiences across all devices. 
+                        I thrive in the intersection of design and technology, where thoughtful details and usability truly make a difference.
                     </p>
                     <p>
                         I love solving problems, building cool stuff, and growing every day.
@@ -60,7 +58,6 @@ export default function Home() {
                     <img className="id-card" src={profileImg} alt="Portait of Sabrina" />
                     {/* <img src={animateImg} alt="" className="animateImg-back" /> */}
                 </div>
-               
             </section>
     )
 }

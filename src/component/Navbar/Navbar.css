@@ -97,15 +97,14 @@ nav {
 }
 
  .logo-navbar {
-        width: 6rem;
-
+        width: 3rem;
     }
 
 
 
 @media screen and (max-width: 750px) {
     .logo-navbar {
-        width: 6rem;
+        width: 4rem;
     }
 
     .menu {
@@ -130,6 +129,7 @@ nav {
     .nav-links.open {
         display: flex;
     }
+
  
 
 

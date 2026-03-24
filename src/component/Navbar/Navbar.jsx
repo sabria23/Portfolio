@@ -1,7 +1,7 @@
 import React, { useState } from "react"; 
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import logoLink from "../../assets/SabrinaLogo.png";
+import logoLink from "../../assets/sab-logo.png";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
