@@ -5,6 +5,9 @@ import projectImg4 from "../assets/samfundet.png";
 import projectImg6 from "../assets/Telenor_bk.png";
 import projectImg7 from "../assets/spanishPoker_bk.png";
 
+// Video
+import BlinkFindvideo from "../assets/video/Blink-Find.mp4";
+import Samfundetvideo from "../assets/video/Samfundet.mp4";
 
 const project = [
         {
@@ -60,6 +63,7 @@ const project = [
             projectLink: "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
             demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
             type: "Group",
+            video: Samfundetvideo,
             role: "UX designer & Accessibility ",
             projectType: "design",
             status: "finish"
@@ -69,12 +73,21 @@ const project = [
             title: "Blink & find",
             category: "Design",
             image: projectImg2,
-            description: "Blink & Find is a multiplayer game where players compete to find item in the picture within a time limit. The game is designed to be engaging and fun, encouraging quick observation and attention to detail.",
+            description: "Blink & Find is a multiplayer game where players compete to find hidden object in an image as quickly as possible.",
+            details: `
+                On the homepage, users can create a game, find a game, 
+                or enter a code. After choosing an option, they are taken to the game settings,
+                where they can select difficulty, choose between public or private mode, 
+                and pick a game map. Players then join a multiplayer lobby before the game starts. 
+                During gameplay, an image is shown with a specific object to find. The system tracks who clicks the correct object first, 
+                awards points, and updates the scoreboard after each round.
+            `,
             tags: ["Figma", "UI/UX", "Prototyping", "Game Design", "Multiplayer"],
             projectLink:"https://www.figma.com/design/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?node-id=115-96&t=HDrfGPkcMju9Wa2m-1", 
             demo: "https://www.figma.com/proto/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?page-id=0%3A1&node-id=267-2499&viewport=1509%2C-307%2C0.16&t=kIveqipEDD2VNBtI-1&scaling=contain&content-scaling=fixed&starting-point-node-id=267%3A2499&show-proto-sidebar=1",
             type: "Group",
-            role: "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
+            video: BlinkFindvideo,
+            role: "UI/UX designer - responsible for wireframes, user flows, interactive prototype, component development, and styling to ensure smooth interaction.",
             projectType: "design",
             status: "finish"
         },

@@ -26,19 +26,6 @@ export default function ProjectPage() {
             <span key={i}>{tag}</span>
         ))}
         </div>
-
-        <p>{project.description}</p>
-        
-        {!isfinished && (
-            <div className="project-status">
-                <span className="in-progress">{project.status || "progress"}</span>
-                <p className="status-message">
-                {project.message ||
-                    "This project is still under development and will be available soon."}
-                </p>
-            </div>
-        )}
-
         {isfinished && (
             <div className="desc-link">
                 {/* Live Demo */}
@@ -76,8 +63,47 @@ export default function ProjectPage() {
                         Figma <span className="arrow"></span>
                     </a>
                     )}
-                </div>
-            )}
+            </div>
+        )}
+
+        <p>{project.description}</p>
+
+        {project.video && (
+            <div className="wrapp-video">
+                <video controls>
+                    <source src={project.video} type="video/mp4" />
+                </video>
+            </div>
+        )}
+        
+        {project.details && (
+            <div>
+                <p>{project.details}</p>
+            </div>
+        )
+
+        }
+
+         {project.role && (
+            <div>
+                <p>My role:</p>
+                <p>{project.role}</p>
+            </div>
+        )
+
+        }
+        
+        {!isfinished && (
+            <div className="project-status">
+                <span className="in-progress">{project.status || "progress"}</span>
+                <p className="status-message">
+                {project.message ||
+                    "This project is still under development and will be available soon."}
+                </p>
+            </div>
+        )}
+
+        
         </section>
     );
 }
