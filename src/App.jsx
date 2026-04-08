@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/next"
 import ProjectPage from "./page/SideProject/ProjectPage.jsx";
 import HomePage from "./page/Home/HomeSection.jsx";
 import Navbar from "./component/Navbar/Navbar.jsx";
@@ -7,6 +8,7 @@ import Footer from "./component/Footer/Footer.jsx";
 function App() {
   return (
     <Router>
+      <Analytics/>
       <div className="app-container">
         <Routes> 
           <Route
