@@ -165,6 +165,16 @@ video {
   
 }
 
+.role-container {
+    margin-top: 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 650px) {
 
 }

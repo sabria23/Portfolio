@@ -84,14 +84,12 @@ export default function ProjectPage() {
 
         }
 
-         {project.role && (
-            <div>
+        {project.myRole && (
+            <div className="role-container">
                 <p>My role:</p>
-                <p>{project.role}</p>
+                <p>{project.myRole}</p>
             </div>
-        )
-
-        }
+        )}
         
         {!isfinished && (
             <div className="project-status">

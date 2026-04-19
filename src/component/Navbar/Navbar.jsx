@@ -1,11 +1,10 @@
 import React, { useState } from "react"; 
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import logoLink from "../../assets/sab-logo.png";
+import logoLink from "../../assets/sab-logoName.png";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
 
     return (
         <nav id="nav">
@@ -82,7 +81,7 @@ export default function Navbar() {
                         to="footer"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={0}
                         duration={500}
                         activeClass="active"
                     >

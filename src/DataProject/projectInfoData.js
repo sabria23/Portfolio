@@ -48,8 +48,21 @@ const project = [
             tags: ["Fullstack", "Prototyping", "Accessibility", "User Research", "Responsive Design"],
             projectLink: "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
             demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
-            type: "Group",
+            type: "Individual",
+            myRole: `
+                    Bygget hele appliaksjon selv
+                `,
+            Ansvar: `
+                    Designet fullstack
+                    bygget
+                    utviklet
+            `,
+            infoTag: ["React", "nodeJS"],
             role: "Full-stack Developer & UX Designer",
+            forbedring: `
+                    Legge til 
+                    videreutvikle søk
+            `,
             projectType: "code",
             status: "finish"
         },
@@ -64,7 +77,20 @@ const project = [
             demo: "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539", 
             type: "Group",
             video: Samfundetvideo,
-            role: "UX designer & Accessibility ",
+            myRole: `
+                    Bygget hele appliaksjon selv
+                `,
+            responsibility: `
+                    Designet fullstack
+                    bygget
+                    utviklet
+            `,
+            infoTag: ["React", "nodeJS"],
+            role: "Full-stack Developer & UX Designer",
+            forbedring: `
+                    Legge til 
+                    videreutvikle søk
+            `,
             projectType: "design",
             status: "finish"
         },

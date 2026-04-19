@@ -189,6 +189,11 @@
     border-radius: 20px;
 }
 
+.link-container {
+    text-decoration: none;
+    color: white;
+}
+
 .status-badge.finished {
     background-color: #09992a;
 }
@@ -216,13 +221,6 @@
         width: 100%;
         height: 100%;
     }
-
-
- 
- 
-
-
-
 }
 
 @media screen and (max-width: 650px) {

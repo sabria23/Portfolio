@@ -68,12 +68,7 @@
     border-bottom: 2px solid #e5e7eb;
 }
 
-.education-item:hover {
-    
-    border-left: 2px solid #8ab1ff;
-    border-bottom: 2px solid #8ab1ff;
-    box-shadow: 0 4px 12px rgba(145, 133, 133, 0.25);
-}
+ 
 
 .education-header {
     display: flex;

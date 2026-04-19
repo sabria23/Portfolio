@@ -30,20 +30,12 @@ export default function Skills() {
                                         <img src={htmlIcon} alt="html icon" /> 
                                         <p>HTML</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill html">98%</div>
-                                    </div>
                                 </div>
 
                                 <div className="skill-item">
                                     <div className="skillicon-container">
                                         <img src={cssIcon} alt="css icon" /> 
                                         <p>CSS</p>
-                                    </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill css">98%</div>
                                     </div>
                                 </div>
                                 
@@ -52,10 +44,6 @@ export default function Skills() {
                                     <div className="skillicon-container">
                                         <img src={reactIcon} alt="react icon" /> 
                                         <p>React</p>
-                                    </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill react">76%</div>
                                     </div>
                                 </div> 
                             </div>
@@ -70,10 +58,6 @@ export default function Skills() {
                                         <img src={nodeIcon} alt="Node.js icon" /> 
                                         <p>Node.js</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill nodeJS">56%</div>
-                                    </div>
                                 </div> 
 
 
@@ -82,10 +66,6 @@ export default function Skills() {
                                         <img src={expressIcon} alt="Express icon" /> 
                                         <p>Express</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill express">56%</div>
-                                    </div>
                                 </div> 
 
 
@@ -93,10 +73,6 @@ export default function Skills() {
                                     <div className="skillicon-container">
                                         <img src={mongoDBIcon} alt="MongoDB icon" /> 
                                         <p>MongoDB</p>
-                                    </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill mongoDB">66%</div>
                                     </div>
                                 </div> 
                             </div>
@@ -112,20 +88,12 @@ export default function Skills() {
                                         <img src={dockerIcon} alt="Docker icon" /> 
                                         <p>Docker</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill docker">56%</div>
-                                    </div>
                                 </div>
 
                                 <div className="skill-item">
                                     <div className="skillicon-container">
                                         <img src={javascriptIcon} alt="Javascript icon" /> 
                                         <p>Javascript</p>
-                                    </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill javascript">56%</div>
                                     </div>
                                 </div>
                             </div>
@@ -140,10 +108,6 @@ export default function Skills() {
                                         <img src={figmaIcon} alt="Figma icon" /> 
                                         <p>Figma</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill figma">96%</div>
-                                    </div>
                                 </div>  
 
 
@@ -152,10 +116,6 @@ export default function Skills() {
                                         <img src={visualStudioIcon} alt="Visual studio Code icon" /> 
                                         <p>Visual Studio Code</p>
                                     </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill vsCode">96%</div>
-                                    </div>
                                 </div>  
 
 
@@ -163,10 +123,6 @@ export default function Skills() {
                                     <div className="skillicon-container">
                                         <img src={terminalIcon} alt="terminal" /> 
                                         <p>Terminal</p>
-                                    </div>
-                                    
-                                    <div className="rating-container">
-                                        <div className="ratingSkill terminal">96%</div>
                                     </div>
                                 </div>  
                             </div>

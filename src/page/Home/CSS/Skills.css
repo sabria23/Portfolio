@@ -73,26 +73,12 @@
 }
 
 
-.rating-container {
-    width: 100%;
-    background-color: #35323e;
-    border-radius: 20px;
-    
-}
 .skill-item p {
     font-size: 1rem;
     margin-top: 0.5rem;
 }
 
-.ratingSkill {
-    text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    border-radius: 20px;
-    background-color: #3e1bbe;
-}
-
+ 
 .css, .html {
     width: 98%;
 }
