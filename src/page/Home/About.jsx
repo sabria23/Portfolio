@@ -1,9 +1,8 @@
 import React from "react";
-import ProfileImg from "../../assets/portaitMySelf.png";
+import ProfileImg from "../../assets/images/MyPicture.png";
 import "./CSS/About.css";
 import ScrollReveal from "../../component/ScrollReveal";
 
-import CV from "../../assets/CV Sabrina Altahrawi.pdf";
 
 export default function About() {
     return (
@@ -65,7 +64,6 @@ export default function About() {
                         
                         </div>
                         
-
                         <div className="education-item">
                             <div className="education-header">
                                 <h3>Bachelor in web Development</h3>
@@ -79,18 +77,8 @@ export default function About() {
                             </p>
                         
                         </div>
-                       
-                       {/* <section className="resume-section">
-                            <div className="cv-download">
-                                <h2 className="resume-title">CV</h2>
-                                <p className="resume-para">You can download my CV to learn more about my background, education, and experience</p>
-                                <a href={CV} download="Sabrina_Altahrawi_CV.pdf" className="cv-button">Download CV</a>
-                            </div>
-                       </section> */}
-                       
                     </article>
                 </section>
-
             </div>
         </ScrollReveal>
         </section>
