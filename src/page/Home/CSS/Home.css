@@ -5,8 +5,12 @@
     --secondary-text-color: #09caff;
     --primary-text-color: white;
     --background-color: rgb(30, 30, 45);
-    --btn-gradient-primary: linear-gradient(240deg, #00addd -5.09%, #c50ddd 106.20%);
-    --btn-gradient-secondary: linear-gradient(240deg, #3690f7 -5.09%, #0e4dba 106.20%);
+    --btn-gradient-primary: linear-gradient(240deg,
+            #00addd -5.09%,
+            #c50ddd 106.2%);
+    --btn-gradient-secondary: linear-gradient(240deg,
+            #3690f7 -5.09%,
+            #0e4dba 106.2%);
 }
 
 .home-container {
@@ -40,14 +44,6 @@
     font-size: 1.25rem;
 }
 
-/* .main-text p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.6;
-    font-size: 24px;
-}
- */
-
 /* animated words */
 .words-container {
     display: flex;
@@ -64,7 +60,7 @@
     font-weight: bold;
 }
 
-.text.first-text{
+.text.first-text {
     color: var(--primary-text-color);
 }
 
@@ -73,7 +69,7 @@
     padding-left: 0.3rem;
 }
 
-.text.sec-text:before{
+.text.sec-text:before {
     content: "";
     position: absolute;
     top: 0;
@@ -88,7 +84,9 @@
 }
 
 @keyframes animate {
-    40%, 60% {
+
+    40%,
+    60% {
         left: 100%;
     }
 
@@ -114,14 +112,14 @@
 }
 
 /* Buttons */
-.btn-action  {
+.btn-action {
     display: flex;
     margin-top: 2rem;
     gap: 1.5rem;
     flex-wrap: wrap;
 }
 
-.btn-work, 
+.btn-work,
 .btn-link {
     display: flex;
     align-items: center;
@@ -175,7 +173,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .profile-container img{
+    .profile-container img {
         max-width: 350px;
     }
 
@@ -184,13 +182,12 @@
         align-items: flex-start;
     }
 
-    .btn-work, 
+    .btn-work,
     .btn-link {
         max-width: 250px;
         width: 100%;
     }
 }
-
 
 @media screen and (max-width: 750px) {
     .home-container {
@@ -213,20 +210,19 @@
         margin: 0 auto;
     }
 
-    .profile-container{
+    .profile-container {
         order: 1;
         margin-top: 2rem;
     }
-    
+
     .text {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .text.sec-text {
         padding-left: 0.25rem;
     }
 }
-
 
 @media screen and (max-width: 650px) {
     .home-container {
@@ -249,20 +245,16 @@
         margin: 0 auto;
     }
 
-    .profile-container{
+    .profile-container {
         order: 1;
         margin-top: 2rem;
     }
-    
+
     .text {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .text.sec-text {
         padding-left: 0.25rem;
     }
 }
-
-
-
-
