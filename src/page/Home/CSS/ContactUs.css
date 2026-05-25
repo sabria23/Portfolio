@@ -1,0 +1,91 @@
+#contact {
+    padding: 80px 20px;
+    background: #0f0f0f;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+hr {
+    width: 80px;
+    margin: 10px auto 40px;
+    border: 1px solid #555;
+}
+
+/* layout */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+/* hver kontaktboks */
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding: 25px;
+    min-width: 200px;
+
+    background: #1a1a1a;
+    border-radius: 16px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* icon */
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+/* headings */
+.contact-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* text links */
+.contact-text {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.contact-text:hover {
+    color: #fff;
+}
+
+/* footer */
+.footer-copy {
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #777;
+}
