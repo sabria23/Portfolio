@@ -1,29 +1,27 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
-import ProjectPage from "./page/SideProject/ProjectPage.jsx";
-import HomePage from "./page/Home/HomeSection.jsx";
-import Navbar from "./component/Navbar/Navbar.jsx";
-import Footer from "./component/Footer/Footer.jsx";
+
+import MainLayout from "./layout/MainLayout";
+
+import HomePage from "./page/Home/HomeSection";
+import ProjectPage from "./page/SideProject/ProjectPage";
+
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
     <Router>
-      <Analytics/>
-      <div className="app-container">
-        <Routes> 
-          <Route
-            path="/"
-            element={
-              <>
-                <div className="page-container">
-                  <Navbar />
-                  <HomePage />
-                </div>
-                <Footer />
-              </>
-            }
-          /> 
+      <Analytics />
 
+      <div className="app-container">
+        <Routes>
+
+          {/* Med Navbar */}
+          <Route element={<MainLayout />}>
+            <Route path="/" element={<HomePage />} />
+          </Route>
+
+          {/* Uten Navbar */}
           <Route
             path="/project/:id"
             element={
@@ -35,6 +33,7 @@ function App() {
               </>
             }
           />
+
         </Routes>
       </div>
     </Router>
