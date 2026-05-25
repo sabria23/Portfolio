@@ -1,16 +1,18 @@
 import "./CSS/Home.css";
-import Home from "./Home";
+import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import MyWork from "./Work";
+import ContactUs from "./ContactUs";
 
 export default function HomePage() {
   return (
     <div>
-      <Home />
+      <Hero />
       <MyWork />
       <About />
       <Skills />
+      <ContactUs />
     </div>
   );
 }
