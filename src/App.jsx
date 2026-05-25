@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 
-import MainLayout from "./layout/MainLayout";
+import MainLayout from "./MainLayout";
 
 import HomePage from "./page/Home/HomeSection";
 import ProjectPage from "./page/SideProject/ProjectPage";
