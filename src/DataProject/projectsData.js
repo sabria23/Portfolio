@@ -1,4 +1,4 @@
-import studyBoost from "../assets/images/StudyBoost/studyBoost-bk.png";
+import studyBoost from "../assets/images/studyBoost/studyBoost-bk.png";
 import studyPlatform from "../assets/images/studyPlatform/PlatformHeroImg.png";
 import blinkFind from "../assets/images/blink&FindApp/blink&Find-bk.png";
 import helseRett from "../assets/images/helseInnApp/helseRett-bk.png";
