@@ -473,7 +473,7 @@ const project = [
         We continued development from earlier individual assignments and restructured the existing codebase into a scalable, full-stack application.
         `,
     tags: ["React", "Node", "MongoDB", "Web Socket"],
-    projectLink: "https://github.com/IDG2100-2026/idg2100-2026-exam-crtl-alt-elite",
+    projectLink: "https://github.com/sabria23/fullstack-2026-oblig1",
     demo: "",
     type: "Group",
     role: "Full-stack Developer & UX Designer",

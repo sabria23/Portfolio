@@ -61,7 +61,10 @@ const project = [
     category: "Development",
     image: images.poker,
     description:
-      "How can a shared, web-based knowledge platform for Telenor be designed to support customer self-service as well as troubleshooting by both customers and customer service agents, while ensuring that the platform is perceived as consistent, efficient, and trustworthy?",
+    `
+    A full-stack multiplayer dice game platform developed as part of an NTNU exam project.
+    Built with the MERN stack, the application features real-time gameplay, authentication, tournament management, and admin tools in a scalable web architecture.
+    `,
     tags: [
       "Fullstack",
       "Prototyping",
@@ -78,26 +81,26 @@ const project = [
     projectType: "code",
   },
 
-  {
-    id: "studyBoost",
-    title: "StudyBoost",
-    category: "Development",
-    image: images.studyBoost,
-    description:
-      "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
-    tags: ["React", "node", "MongoDB"],
-    projectLink: "https://github.com/sabria23/Idg2671-project",
-    demo: "https://group4.sustainability.it.ntnu.no/register",
-    type: "Individually",
-    role: "Full-stack Developer & UX Designer",
-    projectType: "code",
-  },
+  // {
+  //   id: "studyBoost",
+  //   title: "StudyBoost",
+  //   category: "Development",
+  //   image: images.studyBoost,
+  //   description:
+  //     "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
+  //   tags: ["React", "node", "MongoDB"],
+  //   projectLink: "https://github.com/sabria23/Idg2671-project",
+  //   demo: "https://group4.sustainability.it.ntnu.no/register",
+  //   type: "Individually",
+  //   role: "Full-stack Developer & UX Designer",
+  //   projectType: "code",
+  // },
 
 
   // Design
   {
     id: "samfundet",
-    title: "Samfundet",
+    title: "UI/UX redesign Samfundet Gjøvik",
     category: "Design",
     image: images.samfundet,
     description:
@@ -119,41 +122,41 @@ const project = [
     projectType: "design",
   },
 
-  {
-    id: "blink-find",
-    title: "Blink & find",
-    category: "Design",
-    image: images.blinkFind,
-    description:
-      "Blink & Find is a multiplayer game where players compete to find item in the picture within a time limit. The game is designed to be engaging and fun, encouraging quick observation and attention to detail.",
-    tags: ["Figma", "UI/UX", "Prototyping", "Game Design", "Multiplayer"],
-    projectLink:
-      "https://www.figma.com/design/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?node-id=115-96&t=HDrfGPkcMju9Wa2m-1",
-    demo:
-      "https://www.figma.com/proto/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?page-id=0%3A1&node-id=267-2499&viewport=1509%2C-307%2C0.16&t=kIveqipEDD2VNBtI-1&scaling=contain&content-scaling=fixed&starting-point-node-id=267%3A2499&show-proto-sidebar=1",
-    type: "Group",
-    role:
-      "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
-    projectType: "design",
-  },
+  // {
+  //   id: "blink-find",
+  //   title: "Blink & find",
+  //   category: "Design",
+  //   image: images.blinkFind,
+  //   description:
+  //     "Blink & Find is a multiplayer game where players compete to find item in the picture within a time limit. The game is designed to be engaging and fun, encouraging quick observation and attention to detail.",
+  //   tags: ["Figma", "UI/UX", "Prototyping", "Game Design", "Multiplayer"],
+  //   projectLink:
+  //     "https://www.figma.com/design/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?node-id=115-96&t=HDrfGPkcMju9Wa2m-1",
+  //   demo:
+  //     "https://www.figma.com/proto/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?page-id=0%3A1&node-id=267-2499&viewport=1509%2C-307%2C0.16&t=kIveqipEDD2VNBtI-1&scaling=contain&content-scaling=fixed&starting-point-node-id=267%3A2499&show-proto-sidebar=1",
+  //   type: "Group",
+  //   role:
+  //     "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
+  //   projectType: "design",
+  // },
 
-  {
-    id: "helserett.no",
-    title: "HelseRett.no",
-    category: "Design",
-    image: images.helseRett,
-    description:
-      "Designed an accessible website to help elder users explore health technologies, focusing on ease of navigation and user friendly design.",
-    tags: ["Figma", "UI/UX", "Prototyping", "User Testing", "Accessibility"],
-    projectLink:
-      "https://www.figma.com/design/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?node-id=17-472&t=0I34E1aZMWKZUFLq-1",
-    demo:
-      "https://www.figma.com/proto/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?page-id=17%3A472&node-id=435-4165&starting-point-node-id=435%3A4165&t=en2b0fUCeHbY08l6-1",
-    type: "Group",
-    role:
-      "UI/UX designer - responsible for user research, prototyping, creating component and designing accessible, easy-to-navigate interface for elder users",
-    projectType: "design",
-  },
+  // {
+  //   id: "helserett.no",
+  //   title: "HelseRett.no",
+  //   category: "Design",
+  //   image: images.helseRett,
+  //   description:
+  //     "Designed an accessible website to help elder users explore health technologies, focusing on ease of navigation and user friendly design.",
+  //   tags: ["Figma", "UI/UX", "Prototyping", "User Testing", "Accessibility"],
+  //   projectLink:
+  //     "https://www.figma.com/design/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?node-id=17-472&t=0I34E1aZMWKZUFLq-1",
+  //   demo:
+  //     "https://www.figma.com/proto/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?page-id=17%3A472&node-id=435-4165&starting-point-node-id=435%3A4165&t=en2b0fUCeHbY08l6-1",
+  //   type: "Group",
+  //   role:
+  //     "UI/UX designer - responsible for user research, prototyping, creating component and designing accessible, easy-to-navigate interface for elder users",
+  //   projectType: "design",
+  // },
 ];
 
 export default project;
