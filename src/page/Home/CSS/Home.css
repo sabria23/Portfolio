@@ -103,7 +103,7 @@
  */
 
 .profile-container {
-  flex: 1 1 400px; 
+  flex: 1 1 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +113,8 @@
   width: 100%;
   max-width: 500px;
 
- 
+  padding-top: 2rem;
+
   border-radius: 50%;
   object-fit: cover;
 }
@@ -238,7 +239,7 @@
    TABLET / MOBILE
  */
 
-@media screen and (max-width: 803px) {
+@media screen and (max-width: 750px) {
 
   .home-container {
     flex-direction: column;
