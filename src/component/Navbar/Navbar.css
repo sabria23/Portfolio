@@ -100,8 +100,75 @@ nav {
         width: 3.5rem;
     }
 
+/* LANGUAGE SWITCHER */
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 
+/* Buttons */
+.language-switcher button {
+  border: none;
+  background: transparent;
+  color: var(--muted-text);
+  padding: 0.45rem 0.8rem;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.language-switcher button:hover {
+  color: var(--text-color);
+}
+
+/* Active language */
+.language-switcher .language-active {
+  background: var(--accent-color);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Small hover effect */
+.language-switcher .language-active:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+/*  LIGHT MODE */
+
+[data-theme="light"] .language-switcher {
+  background: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 650px) {
+  .language-switcher {
+    gap: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .language-switcher button {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.8rem;
+  }
+}
 @media screen and (max-width: 750px) {
     .logo-navbar {
         width: 4rem;

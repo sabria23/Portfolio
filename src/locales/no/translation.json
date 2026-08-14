@@ -1,0 +1,362 @@
+{
+  "description": "Jeg er webutvikler og interaksjonsdesigner med lidenskap for å skape tilgjengelige og brukervennlige digitale opplevelser.",
+
+  "nav": {
+    "home": "Hjem",
+    "projects": "Prosjekter",
+    "about": "Om meg",
+    "skills": "Ferdigheter",
+    "contact": "Kontakt"
+  },
+
+"home": {
+  "greeting": "Hei",
+  "name": "Jeg heter Sabrina",
+  "role": "Og jeg er frontendutvikler | interaksjonsdesigner",
+  "description": "Jeg er frontendutvikler og tar en bachelorgrad i interaksjonsdesign. Jeg brenner for å utvikle rene, intuitive og tilgjengelige brukergrensesnitt som gir gode brukeropplevelser på tvers av alle enheter. Jeg trives i skjæringspunktet mellom design og teknologi, hvor gjennomtenkte detaljer og god brukervennlighet gjør en forskjell.",
+  "intro": "Jeg elsker å løse problemer, bygge kule ting og utvikle meg hver dag.",
+  "exploreWork": "Se arbeidet mitt",
+  "contactMe": "Ta kontakt"
+},
+  "work": {
+    "title": "Mine siste prosjekter",
+    "category": "Kategori",
+    "project": "Prosjekt",
+    "role": "Rolle",
+    "all": "Alle",
+    "development": "Utvikling",
+    "design": "Design"
+  },
+
+  "about": {
+    "title": "Om meg",
+    "role": "Frontendutvikler & interaksjonsdesigner",
+    "description": "Jeg er nå i siste del av bacheloren i webutvikling ved NTNU Gjøvik, samtidig som jeg tar en bachelor i interaksjonsdesign. Jeg brenner for å skape intuitive, engasjerende og brukervennlige digitale opplevelser.",
+
+    "creative": {
+      "title": "Kreativ",
+      "text1": "Jeg liker å utforske nye ideer og finne innovative måter å kombinere design og teknologi på.",
+      "text2": "Jeg tilfører et nytt perspektiv til hvert prosjekt."
+    },
+
+    "passionate": {
+      "title": "Engasjert",
+      "text": "Jeg brenner for å skape meningsfulle og brukersentrerte opplevelser."
+    },
+
+    "collaborative": {
+      "title": "Samarbeidsorientert",
+      "text": "Jeg liker å samarbeide med andre, dele ideer og skape noe enda bedre sammen."
+    },
+
+    "education": {
+      "title": "Utdanning",
+
+      "interactionDesign": {
+        "title": "Bachelor i interaksjonsdesign",
+        "period": "2022 - Nå",
+        "location": "NTNU Gjøvik | Fakultet for arkitektur og design",
+        "description": "Lærer prosessmetoder"
+      },
+
+      "webDevelopment": {
+        "title": "Bachelor i webutvikling",
+        "period": "2025 - Nå",
+        "location": "NTNU Gjøvik | Fakultet for arkitektur og design",
+        "description": ""
+      }
+    }
+  },
+
+  "skills": {
+    "title": "Ferdigheter og teknologier",
+
+    "categories": {
+      "frontend": "Frontendutvikling",
+      "backend": "Backendutvikling",
+      "infrastructure": "Infrastruktur",
+      "tools": "Verktøy"
+    }
+  },
+
+  "contact": {
+    "title": "Ta kontakt",
+    "email": "E-post",
+    "phone": "Telefon",
+    "linkedin": "LinkedIn",
+    "connectLinkedin": "Ta kontakt på LinkedIn",
+    "emailIconAlt": "E-postikon",
+    "phoneIconAlt": "Telefonikon",
+    "linkedinIconAlt": "LinkedIn-ikon"
+  },
+
+  "projectPage": {
+    "back": "Tilbake til prosjekter",
+    "liveDemo": "Se live demo",
+    "github": "Se på GitHub",
+    "figma": "Se i Figma",
+    "myRole": "Min rolle",
+    "process": "Prosess",
+    "projectNotFound": "Fant ikke prosjektet"
+  },
+
+  "projects": {
+    "bachelor-thesis": {
+      "title": "Bacheloroppgave - Telenor",
+      "category": "Fullstackutvikling",
+      "description": "Design og utvikling av en felles, nettbasert kunnskapsplattform for konsistent og effektiv teknisk feilsøking hos Telenor.",
+      "role": "Fullstackutvikler & UX-designer",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Telenor identifiserte utfordringer knyttet til fragmentert informasjon om feilsøking på tvers av kunders selvbetjeningsløsninger og interne supportsystemer. Kunder klarte ofte ikke å løse tekniske problemer på egen hånd og tok derfor kontakt med kundeservice. Dette førte til ulik veiledning, redusert tillit og økt arbeidsbelastning for kundeservice."
+        },
+
+        "research": {
+          "title": "Research",
+          "text": "Prosjektet kombinerte kvalitative og kvantitative metoder, blant annet semistrukturerte intervjuer med kundeserviceagenter, kundeundersøkelser, observasjon av kundesamtaler og konkurrentanalyse. Funnene viste utfordringer knyttet til informasjonsarkitektur, teknisk språk og mangel på visuell veiledning under feilsøking."
+        },
+
+        "keyInsight": {
+          "title": "Viktigste innsikter",
+          "items": [
+            "Brukerne hadde problemer med å finne riktig svar raskt",
+            "Ulik terminologi skapte forvirring",
+            "Supportagenter brukte flere ulike verktøy hver dag"
+          ]
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Ved hjelp av Double Diamond-metoden ble løsningen utviklet gjennom iterativ prototyping, brukerflyter, personas, utvikling av sitemap og tilgjengelighetsfokuserte designvalg. Det ble lagt særlig vekt på tydelig språk, konsistent informasjonsstruktur og en sømløs overgang fra selvbetjening til kundeservice."
+        },
+
+        "development": {
+          "title": "Utvikling",
+          "text": "Plattformen ble utviklet som en fullstack webapplikasjon ved hjelp av Next.js, PostgreSQL og rollebasert autentisering. Separate kunde- og agentportaler delte en felles kunnskapsbase, mens CI/CD-pipelines, Docker og tilgjengelighetstesting bidro til vedlikeholdbarhet og skalerbarhet.",
+          "highlights": [
+            "Rollebasert autentisering",
+            "Felles kunnskapsbase",
+            "Tilgjengelighetstesting"
+          ],
+          "tech": [
+            "Next.js",
+            "PostgreSQL",
+            "Docker"
+          ]
+        },
+
+        "testing": {
+          "title": "Testing",
+          "text": "Prototypen ble evaluert gjennom brukertesting med både kunder og kundeserviceagenter. Alle deltakerne klarte oppgavene sine, samtidig som funnene viste betydningen av bedre visuell støtte, som bilder av rutere, illustrasjoner av kabler og veiledning basert på indikatorlys."
+        },
+
+        "result": {
+          "title": "Resultat",
+          "text": "Den endelige løsningen introduserte en felles kunnskapsplattform med separate grensesnitt for kunder og agenter. Dette reduserte fragmentert informasjon og forbedret konsistensen i feilsøkingsveiledningen. Brukertestingen viste at alle deltakerne klarte oppgavene sine, noe som indikerte en tydelig forbedring i brukerflyt og forståelse.",
+          "impact": [
+            "Raskere problemløsning",
+            "Mer konsistente svar",
+            "Redusert arbeidsbelastning for agenter",
+            "Bedre brukeropplevelse for kunder"
+          ]
+        }
+      }
+    },
+
+    "studyBoost": {
+      "title": "StudyBoost",
+      "category": "Utvikling",
+      "description": "StudyBoost-plattformen kommer snart.",
+      "role": "Fullstackutvikler & UX-designer"
+    },
+
+    "study-platform": {
+      "title": "Study Platform",
+      "category": "Utvikling",
+      "description": "StudyPlatform er et nettbasert forskningssystem utviklet for å støtte opprettelse og gjennomføring av multimediabaserte sammenligningsstudier. Plattformen gjør det mulig for forskere å utforme strukturerte studier ved hjelp av ulike medietyper som bilder, video, lyd og tekst, samt samle inn deltakeres svar på en kontrollert og skalerbar måte.",
+      "role": "Fullstackutvikler & UX-designer",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Tradisjonelle spørreverktøy som Google Forms og SurveyMonkey er ikke utviklet for forskningssituasjoner som involverer sammenligning av rikt medieinnhold. De har begrenset fleksibilitet i utforming av studier, mangler støtte for strukturert evaluering av ulike artefakter og tilbyr svake verktøy for håndtering av forskningsprosesser og deltakerdata."
+        },
+
+        "solution": {
+          "title": "Løsning",
+          "text": "StudyPlatform tilbyr et sentralisert miljø hvor forskere kan opprette og administrere flere studier, laste opp og organisere multimediabaserte forskningsartefakter, utforme fleksible spørsmålstyper og skalaer, dele studier gjennom deltakerlenker, følge deltakelse og fremdrift og eksportere strukturerte datasett for analyse."
+        },
+
+        "keyInsight": {
+          "title": "Viktigste innsikter",
+          "items": [
+            "Opprette og administrere flere studier fra ett dashboard",
+            "Laste opp og organisere multimediabaserte forskningsartefakter",
+            "Utforme fleksible spørsmålstyper og vurderingsskalaer",
+            "Dele studier gjennom delbare deltakerlenker",
+            "Følge deltakelse og fremdrift i sanntid",
+            "Eksportere strukturerte datasett for analyse"
+          ]
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Ved hjelp av Double Diamond-metoden ble løsningen utviklet gjennom iterativ prototyping, brukerflyter, personas, sitemap og tilgjengelighetsfokuserte designvalg."
+        },
+
+        "result": {
+          "title": "Resultat",
+          "text": "Det endelige systemet gir forskere et mer fleksibelt og forskningsrettet alternativ til tradisjonelle spørreverktøy, og gjør det mulig å gjennomføre strukturerte sammenligningsstudier med rikere datainnsamling og bedre arbeidsflyt.",
+          "impact": [
+            "Egendefinerte spørsmålstyper",
+            "Dashboard med løpende oversikt over svar",
+            "Deltakeroppfølging og anonymisert datahåndtering",
+            "Opprettelse av multimediabaserte studier"
+          ]
+        }
+      }
+    },
+
+    "spanish-poker": {
+      "title": "Spanish Poker Dice",
+      "category": "Utvikling",
+      "description": "Dette prosjektet ble utviklet som en del av en fullstack-eksamensoppgave ved NTNU. Målet var å utvikle en komplett flerspillerplattform for å administrere og spille et turbasert terningspill.",
+      "role": "Fullstackutvikler & UX-designer",
+
+      "process": {
+        "design": {
+          "title": "Design",
+          "text": "Før implementeringen laget vi raske lo-fi wireframes og hi-fi mockups for å visualisere sentrale brukerflyter som spillobby, matchmaking, spillbrett, turneringsoversikt, brukerprofil og statistikkdashboard."
+        },
+
+        "realTime": {
+          "title": "Sanntidssystem",
+          "text": "En viktig del av prosjektet var å implementere sanntidsinteraksjon ved hjelp av WebSockets. Dette gjorde det mulig med sanntidsoppdateringer av spillhandlinger, synkronisert spilling mellom flere spillere, skjult spillogikk på backend og umiddelbare UI-oppdateringer uten at siden måtte lastes inn på nytt."
+        },
+
+        "authentication": {
+          "title": "Autentisering og sikkerhet",
+          "items": [
+            "JWT access- og refresh-tokens",
+            "Passordhashing og salting",
+            "E-postverifisering med tidsbegrensede tokens",
+            "Rollebasert tilgangskontroll"
+          ]
+        },
+
+        "finalResult": {
+          "title": "Sluttresultat",
+          "items": [
+            "Sanntids terningspill for 2–5 spillere",
+            "Turneringssystem med progresjon og rangering",
+            "Brukerautentisering og profiladministrasjon",
+            "Admin-dashboard for administrasjon av plattformen",
+            "Responsivt grensesnitt for spill, lobby og profiler"
+          ]
+        }
+      }
+    },
+
+    "samfundet": {
+      "title": "UI/UX-redesign av Samfundet Gjøvik",
+      "category": "Design",
+      "description": "Redesign av Samfundet Gjøviks nettside for å forbedre brukervennlighet, tilgjengelighet og visuell konsistens gjennom UX-research, evaluering og prototyping i Figma.",
+      "role": "UX-designer & tilgjengelighet",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "items": [
+            "Inkonsistent visuelt design og svak visuell identitet",
+            "Dårlig tilgjengelighet",
+            "Forvirrende struktur og navigasjon",
+            "Uklare prosesser for booking og arrangementer"
+          ]
+        },
+
+        "research": {
+          "title": "Research",
+          "text": "Vi gjennomførte flere UX-evalueringsmetoder for å identifisere sentrale utfordringer, blant annet heuristisk evaluering, brukertesting med tre deltakere, evaluering av visuelt design og struktur samt konkurrentanalyse."
+        },
+
+        "keyInsight": {
+          "title": "Viktigste innsikter",
+          "items": [
+            "Brukerne hadde problemer med å forstå sidens struktur",
+            "Booking- og arrangementsflyten var uklar",
+            "Tilgjengelighetsproblemer påvirket lesbarhet og brukervennlighet",
+            "Inkonsistente UI-elementer reduserte tillit og tydelighet"
+          ]
+        },
+
+        "moscow": {
+          "title": "MoSCoW",
+          "text": "Vi brukte MoSCoW-metoden for å prioritere forbedringer, blant annet WCAG-forbedringer, bedre innholdsstruktur, forbedret kontrast, konsistente UI-komponenter og forbedrede booking- og kontaktsprosesser."
+        },
+
+        "design": {
+          "title": "Design og prototyping",
+          "text": "Vi utviklet en fullstendig redesign i Figma med wireframes, high-fidelity-prototyper, desktop- og mobilversjoner, et konsistent designsystem og forbedrede UI-mønstre med fokus på tilgjengelighet."
+        },
+
+        "improvements": {
+          "title": "Hva kan forbedres",
+          "items": [
+            "Legge til mørk modus for bedre brukerkomfort",
+            "Forbedre karusellnavigasjon på desktop",
+            "Legge til en rask måte å navigere hjem på",
+            "Forbedre kalender- og arrangementsinteraksjoner",
+            "Mulig intern ansattportal"
+          ]
+        },
+
+        "result": {
+          "title": "Resultat",
+          "items": [
+            "Forbedret UX-struktur",
+            "Bedre tilgjengelighet",
+            "Mer konsistent UI-system",
+            "Tydeligere brukerflyter for booking og arrangementer"
+          ]
+        }
+      }
+    },
+
+    "blink-find": {
+      "title": "Blink & Find",
+      "category": "Design",
+      "description": "Blink & Find er et flerspillerspill hvor spillerne konkurrerer om å finne skjulte objekter.",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Utforsking av spillkonsept og brukerflyt."
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Wireframes og UI-struktur."
+        },
+
+        "ideas": {
+          "title": "Ideer",
+          "text": "Ideer til spillmekanikk og funksjoner."
+        },
+
+        "brainstorming": {
+          "title": "Brainstorming",
+          "text": "Idémyldring rundt funksjoner og iterasjon."
+        }
+      }
+    },
+
+    "helserett.no": {
+      "title": "HelseRett.no",
+      "category": "Design",
+      "description": "Designet en tilgjengelig nettside for eldre brukere som utforsker helseteknologi.",
+      "role": "UX-designer"
+    }
+  }
+} 

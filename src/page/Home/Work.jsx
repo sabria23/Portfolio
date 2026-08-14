@@ -5,21 +5,27 @@ import "./CSS/Work.css";
 import ScrollReveal from "../../component/ScrollReveal";
 import CategoryButtons from "./CategoryButtons";
 
+import { useTranslation } from "react-i18next";
+
 export const MyWork = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
-  const filteredProjects = project
-    .filter(
-      (project) =>
-        activeCategory === "all" ||
-        project.projectType.toLowerCase() === activeCategory
-    );
+  const { t } = useTranslation();
+
+  const filteredProjects = project.filter(
+    (project) =>
+      activeCategory === "all" ||
+      project.projectType.toLowerCase() === activeCategory
+  );
 
   return (
     <section id="work" className="projects">
       <ScrollReveal>
         <div className="project-section">
-          <h1 className="section-title">My latest work</h1>
+
+          <h1 className="section-title">
+            {t("work.title")}
+          </h1>
 
           <CategoryButtons
             activeCategory={activeCategory}
@@ -27,38 +33,65 @@ export const MyWork = () => {
           />
 
           <div className="project-grid">
+
             {filteredProjects.map((project) => (
               <div key={project.id} className="project-card">
-                <Link to={`/project/${project.id}`} className="link-container">
+
+                <Link
+                  to={`/project/${project.id}`}
+                  className="link-container"
+                >
+
                   <div className="project-img">
-                    <img src={project.image} alt={project.title} />
+                    <img
+                      src={project.image}
+                      alt={t(`projects.${project.id}.title`)}
+                    />
                   </div>
 
                   <div className="project-container">
+
                     <div className="column-project">
-                      <h2 className="project-title">{project.title}</h2>
+
+                      <h2 className="project-title">
+                        {t(`projects.${project.id}.title`)}
+                      </h2>
 
                       <p className="work-category">
-                        Category:{" "}
-                        <span className="type-category">{project.category}</span>
+                        {t("work.category")}:{" "}
+                        <span className="type-category">
+                          {t(`projects.${project.id}.category`)}
+                        </span>
                       </p>
 
                       <p className="work-type">
-                        {project.type} Project
+                        {project.type} {t("work.project")}
                       </p>
 
                       <p>
-                        Role: <span className="role">{project.role}</span>
+                        {t("work.role")}:{" "}
+                        <span className="role">
+                          {project.role}
+                        </span>
                       </p>
+
                     </div>
 
                     <div className="project-content">
-                      <p className="desc">{project.description}</p>
+
+                      <p className="desc">
+                        {t(`projects.${project.id}.description`)}
+                      </p>
+
                     </div>
+
                   </div>
+
                 </Link>
+
               </div>
             ))}
+
           </div>
         </div>
       </ScrollReveal>

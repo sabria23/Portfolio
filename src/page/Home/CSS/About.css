@@ -21,7 +21,7 @@
 
 .about-card p {
     margin-top: 1rem;
-    color: #c5d4e3;
+    color: var(--contact-secondary-text);
 }
 
 .about-card:hover {
@@ -61,23 +61,18 @@
     font-size: 1.5rem;
 }
 
-.education-period {
-    background-color: #e0f7ef;
-    color: #007f5f;
-    font-size: 0.95rem;
-    border-radius: 1rem;
-    padding: 0.3rem 0.75rem;
+ 
+.education-item {
+  text-align: left;
 }
 
-.education-location {
-    color: #dbd6d6;
-    font-size: 0.95rem;
+.education-header {
+  text-align: left;
 }
 
+.education-location,
 .education-description {
-    margin-top: 0.7rem;
-    color: #d6d5d5;
-    line-height: 1.6;
+  text-align: left;
 }
 
 /* resume */

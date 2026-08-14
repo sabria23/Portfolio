@@ -1,61 +1,64 @@
+ 
 import "./CSS/Home.css";
-import { useEffect, useRef } from "react";
+
 import profileImg from "../../assets/images/MyPicture.png";
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 import ScrollReveal from "../../component/ScrollReveal";
 
 export default function Home() {
-    const textRef = useRef(null);
+  const { t } = useTranslation();
 
-    useEffect(() => {
-        const textEl = textRef.current;
-        const phrases = ["a Frontend developer", "an Interacton designer"];
-        let index = 0;
-        
-        const changeText = () => {
-            textEl.textContent = phrases[index];
-            index = (index + 1) % phrases.length;
-        };
+  return (
+    <section id="home" className="home-container">
+      <div className="main-text">
+        <h1>{t("home.greeting")}</h1>
 
-        changeText();
-        const intervalid = setInterval(changeText, 4000);
+        <h2>{t("home.name")}</h2>
 
-        return () => clearInterval(intervalid);
-    }, []);
+        <div className="words-container">
+          <span className="text first-text">
+            {t("home.role")}
+          </span>
+        </div>
 
-    return (
-            <section id="home" className="home-container">
-                <div className="main-text"> 
-                    <h1>Hi</h1>
-                    <h2>I'm Sabrina</h2> 
+        <p>
+          {t("home.description")}
+        </p>
 
-                    <div className="words-container">
-                        
-                            <span className="text first-text">And I'm </span>
-                            <span className="text sec-text" ref={textRef}></span>
-                    </div>
-                    
-                    <p>
-                        Frontend developer pursuing a bachelor's degree in interaction design.
-                        I'm passionate about building clean, intuitive and accessible user interfaces that deliver great experiences across all devices. 
-                        I thrive in the intersection of design and technology, where thoughtful details and usability truly make a difference.
-                    </p>
-                    <p>
-                        I love solving problems, building cool stuff, and growing every day.
-                    </p>
+        <p>
+          {t("home.intro")}
+        </p>
 
-                    <div className="btn-action">
-                        <Link to="work" smooth={true} duration={500} className="btn-work">Explore my work</Link>
-                            
-                        <Link to="footer" smooth={true} duration={500} className="btn-link">Contact Me</Link>
-                        
-                    </div>
-                </div>
-                
-                <div className="profile-container">
-                    <img className="id-card" src={profileImg} alt="Portait of Sabrina" />
-                </div>
-            </section>
-    )
-}
+        <div className="btn-action">
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="btn-work"
+          >
+            {t("home.exploreWork")}
+          </Link>
+
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="btn-link"
+          >
+            {t("home.contactMe")}
+          </Link>
+        </div>
+      </div>
+
+      <div className="profile-container">
+        <img
+          className="id-card"
+          src={profileImg}
+          alt="Portrait of Sabrina"
+        />
+      </div>
+    </section>
+  );
+} 

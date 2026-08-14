@@ -1,0 +1,362 @@
+{
+  "description": "I'm a web developer and interaction designer passionate about creating accessible and user-friendly digital experiences.",
+
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "skills": "Skills",
+    "contact": "Contact me"
+  },
+
+"home": {
+  "greeting": "Hi",
+  "name": "I'm Sabrina",
+  "role": "And I'm a frontend developer | interaction designer",
+  "description": "Frontend developer pursuing a bachelor's degree in interaction design. I'm passionate about building clean, intuitive and accessible user interfaces that deliver great experiences across all devices. I thrive at the intersection of design and technology, where thoughtful details and usability truly make a difference.",
+  "intro": "I love solving problems, building cool stuff, and growing every day.",
+  "exploreWork": "Explore my work",
+  "contactMe": "Contact Me"
+},
+  "work": {
+    "title": "My latest work",
+    "category": "Category",
+    "project": "Project",
+    "role": "Role",
+    "all": "All",
+    "development": "Development",
+    "design": "Design"
+  },
+
+  "about": {
+    "title": "About Me",
+    "role": "Frontend Developer & Interaction Designer",
+    "description": "I am currently in my final year of Web Development at NTNU Gjøvik, while also pursuing a degree in Interaction Design, which I plan to complete alongside my work. I am passionate about creating intuitive, engaging, and user-friendly web experiences.",
+
+    "creative": {
+      "title": "Creative",
+      "text1": "I love exploring new ideas and finding innovative ways to combine design and technology.",
+      "text2": "I bring a new perspective into every project."
+    },
+
+    "passionate": {
+      "title": "Passionate",
+      "text": "I am passionate about creating meaningful and user-focused experiences."
+    },
+
+    "collaborative": {
+      "title": "Collaborative",
+      "text": "I enjoy working with others to share ideas and create something greater together."
+    },
+
+    "education": {
+      "title": "Education",
+
+      "interactionDesign": {
+        "title": "Bachelor in Interaction Design",
+        "period": "2022 - Present",
+        "location": "NTNU Gjøvik | Faculty of Architecture and Design",
+        "description": "Learning process methods"
+      },
+
+      "webDevelopment": {
+        "title": "Bachelor in Web Development",
+        "period": "2025 - Present",
+        "location": "NTNU Gjøvik | Faculty of Architecture and Design",
+        "description": ""
+      }
+    }
+  },
+
+  "skills": {
+    "title": "Skills & Technologies",
+
+    "categories": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "infrastructure": "Infrastructure",
+      "tools": "Tools"
+    }
+  },
+
+  "contact": {
+    "title": "Get in touch",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "connectLinkedin": "Connect on LinkedIn",
+    "emailIconAlt": "Email icon",
+    "phoneIconAlt": "Phone icon",
+    "linkedinIconAlt": "LinkedIn icon"
+  },
+
+  "projectPage": {
+    "back": "Back to projects",
+    "liveDemo": "Live Demo",
+    "github": "View on GitHub",
+    "figma": "View in Figma",
+    "myRole": "My Role",
+    "process": "Process",
+    "projectNotFound": "Project not found"
+  },
+
+  "projects": {
+    "bachelor-thesis": {
+      "title": "Bachelor Thesis - Telenor",
+      "category": "Fullstack Development",
+      "description": "Design and development of a shared, web-based knowledge platform for consistent and efficient technical troubleshooting at Telenor.",
+      "role": "Full-stack Developer & UX Designer",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Telenor identified challenges related to fragmented troubleshooting information across customer self-service and internal support systems. Customers often failed to resolve technical issues independently and contacted support instead, leading to inconsistent guidance, reduced trust, and increased workload for customer service agents."
+        },
+
+        "research": {
+          "title": "Research",
+          "text": "The project combined qualitative and quantitative research methods, including semi-structured interviews with customer service agents, customer surveys, call-monitoring sessions, and competitor analysis. Findings highlighted issues related to information architecture, technical language, and lack of visual guidance during troubleshooting."
+        },
+
+        "keyInsight": {
+          "title": "Key Insight",
+          "items": [
+            "Users struggled to find the right answer quickly",
+            "Inconsistent terminology created confusion",
+            "Support agents used multiple tools daily"
+          ]
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Using the Double Diamond framework, the solution was designed through iterative prototyping, user flows, personas, sitemap development, and accessibility-focused design decisions. Particular focus was placed on clear language, consistent information structures, and seamless escalation from self-service to customer support."
+        },
+
+        "development": {
+          "title": "Development",
+          "text": "The platform was implemented as a fullstack web application using Next.js, PostgreSQL, and role-based authentication. Separate customer and agent portals shared a common knowledge base, while CI/CD pipelines, Docker, and accessibility testing ensured maintainability and scalability.",
+          "highlights": [
+            "Role-based authentication",
+            "Shared knowledge base",
+            "Accessibility testing"
+          ],
+          "tech": [
+            "Next.js",
+            "PostgreSQL",
+            "Docker"
+          ]
+        },
+
+        "testing": {
+          "title": "Testing",
+          "text": "The prototype was evaluated through usability testing with both customers and customer service agents. All participants completed their assigned tasks successfully, while findings emphasized the importance of enhanced visual support such as router images, cable illustrations, and indicator light guidance."
+        },
+
+        "result": {
+          "title": "Result",
+          "text": "The final solution introduced a shared knowledge platform with separate customer and agent interfaces, reducing fragmented information and improving consistency in troubleshooting guidance. Usability testing showed that all participants successfully completed their tasks, indicating a clear improvement in user flow and understanding.",
+          "impact": [
+            "Faster issue resolution",
+            "More consistent answers",
+            "Reduced workload for agents",
+            "Better experience for customers"
+          ]
+        }
+      }
+    },
+
+    "studyBoost": {
+      "title": "StudyBoost",
+      "category": "Development",
+      "description": "StudyBoost platform is coming soon.",
+      "role": "Full-stack Developer & UX Designer"
+    },
+
+    "study-platform": {
+      "title": "Study Platform",
+      "category": "Development",
+      "description": "StudyPlatform is a web-based research system designed to support the creation and execution of multimedia comparison studies. It enables researchers to design structured studies using different types of media such as images, videos, audio, and text, and collect participant responses in a controlled and scalable way.",
+      "role": "Full-stack Developer & UX Designer",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Traditional survey tools such as Google Forms and SurveyMonkey are not designed for research scenarios involving rich media comparisons. They provide limited flexibility for study design, lack support for structured artifact evaluation, and offer weak tools for managing research workflows and participant data."
+        },
+
+        "solution": {
+          "title": "Solution",
+          "text": "StudyPlatform introduces a centralized environment where researchers can create and manage multiple studies, upload and organize multimedia research artifacts, design flexible question formats and rating scales, distribute studies through shareable participant links, track participation and study progress, and export structured datasets for analysis."
+        },
+
+        "keyInsight": {
+          "title": "Key Insight",
+          "items": [
+            "Create and manage multiple studies from a single dashboard",
+            "Upload and organize multimedia research artifacts",
+            "Design flexible question formats and rating scales",
+            "Distribute studies through shareable participant links",
+            "Track participation and study progress in real time",
+            "Export structured datasets for analysis"
+          ]
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Using the Double Diamond framework, the solution was designed through iterative prototyping, user flows, personas, sitemap development, and accessibility-focused design decisions."
+        },
+
+        "result": {
+          "title": "Result",
+          "text": "The final system provides researchers with a more flexible and research-oriented alternative to traditional survey tools, enabling structured comparative studies with richer data inputs and improved workflow management.",
+          "impact": [
+            "Custom question types",
+            "Study dashboard with live overview of responses",
+            "Participant tracking and anonymized data handling",
+            "Multimedia-based study creation"
+          ]
+        }
+      }
+    },
+
+    "spanish-poker": {
+      "title": "Spanish Poker Dice",
+      "category": "Development",
+      "description": "This project was developed as part of a full-stack exam assignment at NTNU, where the goal was to build a complete multiplayer web platform for managing and playing a turn-based dice game.",
+      "role": "Full-stack Developer & UX Designer",
+
+      "process": {
+        "design": {
+          "title": "Design",
+          "text": "Before implementing features, we created quick lo-fi wireframes and hi-fi mockups to visualize key flows such as the game lobby, matchmaking, game board, tournament overview, user profile, and statistics dashboard."
+        },
+
+        "realTime": {
+          "title": "Real-time System",
+          "text": "A major part of the project was implementing real-time interaction using WebSockets. This enabled live updates of game actions, synchronized gameplay across multiple players, hidden game state logic handled on the backend, and immediate UI updates without page reloads."
+        },
+
+        "authentication": {
+          "title": "Authentication & Security",
+          "items": [
+            "JWT access and refresh tokens",
+            "Password hashing and salting",
+            "Email verification flow with time-limited tokens",
+            "Role-based access control"
+          ]
+        },
+
+        "finalResult": {
+          "title": "Final Result",
+          "items": [
+            "Real-time dice gameplay for 2–5 players",
+            "Tournament system with progression and ranking",
+            "User authentication and profile management",
+            "Admin dashboard for platform control",
+            "Responsive UI with game, lobby, and profile views"
+          ]
+        }
+      }
+    },
+
+    "samfundet": {
+      "title": "UI/UX Redesign Samfundet Gjøvik",
+      "category": "Design",
+      "description": "Redesigned Samfundet Gjøvik’s website to improve usability, accessibility, and overall visual consistency through UX research, evaluation, and prototyping in Figma.",
+      "role": "UX Designer & Accessibility",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "items": [
+            "Inconsistent visual design and weak overall identity",
+            "Poor accessibility",
+            "Confusing structure and navigation",
+            "Booking and event flow lacked clarity"
+          ]
+        },
+
+        "research": {
+          "title": "Research",
+          "text": "We conducted multiple UX evaluation methods to identify key issues, including heuristic evaluation, in-person usability testing, design evaluation, and competitor analysis."
+        },
+
+        "keyInsight": {
+          "title": "Key Insight",
+          "items": [
+            "Users struggled to understand site structure",
+            "Booking and event flow was unclear",
+            "Accessibility issues affected readability and usability",
+            "Inconsistent UI elements reduced trust and clarity"
+          ]
+        },
+
+        "moscow": {
+          "title": "MoSCoW",
+          "text": "We used the MoSCoW method to prioritize improvements, including WCAG compliance, better content structure, improved contrast, consistent UI components, and improved booking and contact flows."
+        },
+
+        "design": {
+          "title": "Design & Prototyping",
+          "text": "We developed a full redesign in Figma, including wireframes, high-fidelity prototypes, desktop and mobile versions, a consistent design system, and improved UI patterns and accessibility."
+        },
+
+        "improvements": {
+          "title": "What could be improved",
+          "items": [
+            "Adding dark mode for better user comfort",
+            "Improving carousel navigation on desktop",
+            "Adding quick home navigation",
+            "Enhancing calendar and event interaction features",
+            "Potential internal employee portal"
+          ]
+        },
+
+        "result": {
+          "title": "Result",
+          "items": [
+            "Improved UX structure",
+            "Better accessibility",
+            "More consistent UI system",
+            "Clearer user flows for booking and events"
+          ]
+        }
+      }
+    },
+
+    "blink-find": {
+      "title": "Blink & Find",
+      "category": "Design",
+      "description": "Blink & Find is a multiplayer game where players compete to find hidden objects.",
+
+      "process": {
+        "problem": {
+          "title": "Problem",
+          "text": "Game concept and user flow exploration."
+        },
+
+        "design": {
+          "title": "Design",
+          "text": "Wireframes and UI structure."
+        },
+
+        "ideas": {
+          "title": "Ideas",
+          "text": "Gameplay ideas and mechanics."
+        },
+
+        "brainstorming": {
+          "title": "Brainstorming",
+          "text": "Feature brainstorming and iteration."
+        }
+      }
+    },
+
+    "helserett.no": {
+      "title": "HelseRett.no",
+      "category": "Design",
+      "description": "Designed an accessible website for older users exploring health technology.",
+      "role": "UX Designer"
+    }
+  }
+} 

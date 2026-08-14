@@ -1,29 +1,15 @@
-import studyBoost from "../assets/images/studyBoost/studyBoost-bk.png";
-import studyPlatform from "../assets/images/studyPlatform/PlatformHeroImg.png";
-import blinkFind from "../assets/images/blink&FindApp/blink&Find-bk.png";
-import helseRett from "../assets/images/helseInnApp/helseRett-bk.png";
-import samfundet from "../assets/images/samfundet/samfundet-bk.png";
-import telenor from "../assets/images/telenor/telenorHeroImg.png";
-import poker from "../assets/images/spanishDice/SpanishPokerIMG.png";
+import projectImages from "./projectImages";
 
-const images = {
-  studyBoost,
-  studyPlatform,
-  blinkFind,
-  helseRett,
-  samfundet,
-  telenor,
-  poker,
-};
+const projects = [
 
-const project = [
+  // ==========================================
+  // TELENOR
+  // ==========================================
+
   {
     id: "bachelor-thesis",
-    title: "Kunnskapsbase",
-    category: "Development",
-    image: images.telenor,
-    description:
-      "How can a shared, web-based knowledge platform for Telenor be designed to support customer self-service as well as troubleshooting by both customers and customer service agents, while ensuring that the platform is perceived as consistent, efficient, and trustworthy?",
+    image: projectImages.covers.telenor,
+
     tags: [
       "Fullstack",
       "Prototyping",
@@ -31,80 +17,219 @@ const project = [
       "User Research",
       "Responsive Design",
     ],
-    projectLink:
-      "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
-    demo:
-      "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539",
+
+    projectLink: "https://github.com/BachelorTelenor26/bachelor26",
+    demo: "https://telenor.jensnic.no/",
+
     type: "Group",
-    role: "Full-stack Developer & UX Designer",
+
+    roleKey: "projects.bachelor-thesis.role",
+
     projectType: "code",
+
+    process: [
+      {
+        key: "problem",
+      },
+
+      {
+        key: "research",
+        images: [
+          projectImages.telenor.affinityMapping,
+          projectImages.telenor.personas,
+        ],
+      },
+
+      {
+        key: "keyInsight",
+      },
+
+      {
+        key: "design",
+        images: [
+          projectImages.telenor.sitemap,
+          projectImages.telenor.userFlow,
+          projectImages.telenor.dotVoting,
+          projectImages.telenor.lofi,
+          projectImages.telenor.hifi,
+        ],
+      },
+
+      {
+        key: "development",
+
+        images: [
+          projectImages.telenor.systemArchitecture,
+        ],
+
+        highlightsKey:
+          "projects.bachelor-thesis.process.development.highlights",
+
+        techKey:
+          "projects.bachelor-thesis.process.development.tech",
+      },
+
+      {
+        key: "testing",
+      },
+
+      {
+        key: "result",
+
+        impactKey:
+          "projects.bachelor-thesis.process.result.impact",
+      },
+    ],
   },
-  
+
+
+  // ==========================================
+  // STUDY BOOST
+  // ==========================================
+
+  {
+    id: "studyBoost",
+    image: projectImages.covers.studyBoost,
+
+    tags: [],
+
+    projectLink: "",
+    demo: "",
+
+    type: "Personal",
+
+    roleKey: "projects.studyBoost.role",
+
+    projectType: "code",
+
+    process: [],
+  },
+
+
+  // ==========================================
+  // STUDY PLATFORM
+  // ==========================================
+
   {
     id: "study-platform",
-    title: "Study platform",
-    category: "Development",
-    image: images.studyPlatform,
-    description:
-      "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
-    tags: ["React", "node", "MongoDB"],
-    projectLink: "https://github.com/sabria23/Idg2671-project",
-    demo: "https://group4.sustainability.it.ntnu.no/register",
+    image: projectImages.covers.studyPlatform,
+
+    tags: [
+      "React",
+      "Node",
+      "MongoDB",
+    ],
+
+    projectLink:
+      "https://github.com/sabria23/Idg2671-project",
+
+    demo:
+      "https://group4.sustainability.it.ntnu.no/register",
+
     type: "Group",
-    role: "Full-stack Developer & UX Designer",
+
+    roleKey: "projects.study-platform.role",
+
     projectType: "code",
+
+    process: [
+      {
+        key: "problem",
+      },
+
+      {
+        key: "solution",
+
+        images: [
+          projectImages.studyPlatform.dashboard,
+          projectImages.studyPlatform.dashboardSettings,
+          projectImages.studyPlatform.createNewStudy,
+        ],
+      },
+
+      {
+        key: "keyInsight",
+      },
+
+      {
+        key: "design",
+
+        images: [
+          projectImages.studyPlatform.userFlow,
+        ],
+      },
+
+      {
+        key: "result",
+
+        impactKey:
+          "projects.study-platform.process.result.impact",
+      },
+    ],
   },
+
+
+  // ==========================================
+  // SPANISH POKER
+  // ==========================================
 
   {
     id: "spanish-poker",
-    title: "Spanish poker dice",
-    category: "Development",
-    image: images.poker,
-    description:
-    `
-    A full-stack multiplayer dice game platform developed as part of an NTNU exam project.
-    Built with the MERN stack, the application features real-time gameplay, authentication, tournament management, and admin tools in a scalable web architecture.
-    `,
+    image: projectImages.covers.poker,
+
     tags: [
       "Fullstack",
-      "Prototyping",
-      "Accessibility",
-      "User Research",
-      "Responsive Design",
+      "WebSocket",
+      "Authentication",
+      "Game Design",
     ],
+
     projectLink:
-      "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
-    demo:
-      "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539",
+      "https://github.com/sabria23/fullstack-2026-oblig1",
+
+    demo: "",
+
     type: "Group",
-    role: "Full-stack Developer & UX Designer",
+
+    roleKey: "projects.spanish-poker.role",
+
     projectType: "code",
+
+    process: [
+      {
+        key: "design",
+
+        images: [
+          projectImages.spanishPoker.dotVoting,
+          projectImages.spanishPoker.darkMode,
+          projectImages.spanishPoker.fontFamily,
+          projectImages.spanishPoker.colors,
+        ],
+      },
+
+      {
+        key: "realTimeSystem",
+      },
+
+      {
+        key: "authenticationSecurity",
+      },
+
+      {
+        key: "finalResult",
+      },
+    ],
   },
 
-  // {
-  //   id: "studyBoost",
-  //   title: "StudyBoost",
-  //   category: "Development",
-  //   image: images.studyBoost,
-  //   description:
-  //     "Study platform is a group project where we focused on developing a web platform designed to support researchers in creating, managing and conducting research studies.",
-  //   tags: ["React", "node", "MongoDB"],
-  //   projectLink: "https://github.com/sabria23/Idg2671-project",
-  //   demo: "https://group4.sustainability.it.ntnu.no/register",
-  //   type: "Individually",
-  //   role: "Full-stack Developer & UX Designer",
-  //   projectType: "code",
-  // },
 
+  // ==========================================
+  // SAMFUNDET
+  // ==========================================
 
-  // Design
   {
     id: "samfundet",
-    title: "UI/UX redesign Samfundet Gjøvik",
-    category: "Design",
-    image: images.samfundet,
-    description:
-      "Redesigned Samfundet Gjøvik's website to improve accessibility and usability. Delivered a responsive hi-fi prototype in Figma for desktop and mobile, supported by research and heuristic evaluation.",
+    image: projectImages.covers.samfundet,
+
     tags: [
       "Figma",
       "UI/UX",
@@ -113,50 +238,156 @@ const project = [
       "User Research",
       "Responsive Design",
     ],
+
     projectLink:
-      "https://www.figma.com/design/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?node-id=389-1386&t=SBav7QZuYPTK0ddI-1",
+      "https://www.figma.com/file/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12",
+
     demo:
-      "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12?page-id=389%3A1386&node-id=779-3539&viewport=262%2C421%2C0.44&t=bOSrmf3ARU1JJQrq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=779%3A3539",
+      "https://www.figma.com/proto/Q4A3pdFfcKIQ4G0BS9q57u/Samfundet_IDG2200_G12",
+
     type: "Group",
-    role: "UX designer & Accessibility",
+
+    roleKey: "projects.samfundet.role",
+
     projectType: "design",
+
+    video: projectImages.videos.samfundet,
+
+    process: [
+      {
+        key: "problem",
+      },
+
+      {
+        key: "research",
+
+        images: [
+          projectImages.samfundet.sitemap,
+        ],
+      },
+
+      {
+        key: "keyInsight",
+      },
+
+      {
+        key: "moscow",
+
+        images: [
+          projectImages.samfundet.moscow,
+        ],
+      },
+
+      {
+        key: "designPrototyping",
+
+        images: [
+          projectImages.samfundet.sketch,
+          projectImages.samfundet.lofi,
+          projectImages.samfundet.hifiMobile,
+          projectImages.samfundet.hifiPc,
+        ],
+      },
+
+      {
+        key: "whatCouldBeImproved",
+      },
+
+      {
+        key: "result",
+
+        newversionImage: [
+          projectImages.samfundet.dashboard,
+          projectImages.samfundet.arrangement,
+          projectImages.samfundet.lokal,
+        ],
+      },
+    ],
   },
 
-  // {
-  //   id: "blink-find",
-  //   title: "Blink & find",
-  //   category: "Design",
-  //   image: images.blinkFind,
-  //   description:
-  //     "Blink & Find is a multiplayer game where players compete to find item in the picture within a time limit. The game is designed to be engaging and fun, encouraging quick observation and attention to detail.",
-  //   tags: ["Figma", "UI/UX", "Prototyping", "Game Design", "Multiplayer"],
-  //   projectLink:
-  //     "https://www.figma.com/design/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?node-id=115-96&t=HDrfGPkcMju9Wa2m-1",
-  //   demo:
-  //     "https://www.figma.com/proto/NUpEvcJgyjEgIVAiSI5GGD/multiplayer-oblig5?page-id=0%3A1&node-id=267-2499&viewport=1509%2C-307%2C0.16&t=kIveqipEDD2VNBtI-1&scaling=contain&content-scaling=fixed&starting-point-node-id=267%3A2499&show-proto-sidebar=1",
-  //   type: "Group",
-  //   role:
-  //     "UI/UX designer - responsible for wireframes, user flows, interactive prototype and visual design in Figma",
-  //   projectType: "design",
-  // },
 
-  // {
-  //   id: "helserett.no",
-  //   title: "HelseRett.no",
-  //   category: "Design",
-  //   image: images.helseRett,
-  //   description:
-  //     "Designed an accessible website to help elder users explore health technologies, focusing on ease of navigation and user friendly design.",
-  //   tags: ["Figma", "UI/UX", "Prototyping", "User Testing", "Accessibility"],
-  //   projectLink:
-  //     "https://www.figma.com/design/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?node-id=17-472&t=0I34E1aZMWKZUFLq-1",
-  //   demo:
-  //     "https://www.figma.com/proto/wnAhuDbjtefDq2BLhcFFFC/Nettside-til-Helseinn?page-id=17%3A472&node-id=435-4165&starting-point-node-id=435%3A4165&t=en2b0fUCeHbY08l6-1",
-  //   type: "Group",
-  //   role:
-  //     "UI/UX designer - responsible for user research, prototyping, creating component and designing accessible, easy-to-navigate interface for elder users",
-  //   projectType: "design",
-  // },
+  // ==========================================
+  // BLINK & FIND
+  // ==========================================
+
+  {
+    id: "blink-find",
+    image: projectImages.covers.blinkFind,
+
+    tags: [
+      "Figma",
+      "UI/UX",
+      "Game Design",
+    ],
+
+    projectLink: "",
+    demo: "",
+
+    type: "Group",
+
+    roleKey: "projects.blink-find.role",
+
+    projectType: "design",
+
+    video: projectImages.videos.blinkFind,
+
+    process: [
+      {
+        key: "problem",
+      },
+
+      {
+        key: "design",
+
+        images: [
+          projectImages.blinkFind.design,
+        ],
+      },
+
+      {
+        key: "ideas",
+      },
+
+      {
+        key: "brainstorming",
+      },
+    ],
+  },
+
+
+  // ==========================================
+  // HELSERETT
+  // ==========================================
+
+  {
+    id: "helserett",
+    image: projectImages.covers.helseRett,
+
+    tags: [
+      "Figma",
+      "UI/UX",
+      "Accessibility",
+    ],
+
+    projectLink: "",
+    demo: "",
+
+    type: "Group",
+
+    roleKey: "projects.helserett.role",
+
+    projectType: "design",
+
+    process: [
+      {
+        key: "design",
+
+        images: [
+          projectImages.helseRett.hero,
+        ],
+      },
+    ],
+  },
 ];
 
-export default project;
+export default projects;

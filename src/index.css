@@ -1,9 +1,12 @@
-html, body, #root{
+/* RESET */
+
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;
 }
-
 
 * {
   margin: 0;
@@ -11,9 +14,88 @@ html, body, #root{
   box-sizing: border-box;
 }
 
+
+/* DARK MODE – DEFAULT */
+
 :root {
-  --page-bg:  radial-gradient(125% 125% at 50% 10%, #000 50%, #0063ff 100%);
+  --page-bg: radial-gradient(
+    125% 125% at 50% 10%,
+    #000 50%,
+    #0063ff 100%
+  );
+
+  --text-color: #ffffff;
+  --heading-color: #ffffff;
+  --section-title-color: #ffffff;
+  --button-text: #ffffff;
+
+
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  --card-shadow-hover: 0 25px 50px rgba(0, 0, 0, 0.6);
+
+  --border-color: #e5e7eb;
+
+  --accent-color: #8b7cf6;
+
+  --period-bg: #e0f7ef;
+  --period-text: #007f5f;
+
+  --resume-bg: rgb(36, 31, 42);
+ --text-color: #ffffff;
+  --heading-color: #ffffff;
+  --muted-text: #c5d4e3;
+
+  --button-bg: #0063ff;
+  --button-text: #ffffff;
+  --button-bg: #09399b;
+  --button-bg-hover: #053d79;
+  --button-text: #ffffff;
+  --button-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  --button-shadow-hover: 0 5px 12px rgba(0, 0, 0, 0.15);
+
+  /* Contact */
+  --contact-bg: rgba(0, 0, 0, 0.35);
+  --contact-card-bg: rgba(255, 255, 255, 0.08);
+  --contact-border: rgba(255, 255, 255, 0.12);
+  --contact-secondary-text: #c5d4e3;
+  --contact-muted-text: #9ca3af;
+  --contact-line: rgba(255, 255, 255, 0.3);
 }
+
+
+
+/* LIGHT MODE */
+[data-theme="light"] {
+  --page-bg: radial-gradient(
+    125% 125% at 50% 10%,
+    #ffffff 50%,
+    #dceaff 100%
+  );
+
+  --text-color: #111111;
+  --heading-color: #111111;
+  --section-title-color: #111111;
+  --button-text: #111111;
+
+  /* Contact */
+  --contact-bg: rgba(255, 255, 255, 0.35);
+  --contact-card-bg: rgba(255, 255, 255, 0.7);
+  --contact-border: rgba(0, 0, 0, 0.08);
+  --contact-secondary-text: #4b5563;
+  --contact-muted-text: #6b7280;
+  --contact-line: rgba(0, 0, 0, 0.2);
+
+   --text-color: #111111;
+  --heading-color: #111111;
+  --muted-text: #4b5563;
+
+  --button-bg: #0063ff;
+  --button-text: #ffffff;
+}
+
+
+/*  APP */
 
 .app-container {
   min-height: 100%;
@@ -22,29 +104,285 @@ html, body, #root{
 }
 
 
-/* #ec44ff */
+/* SECTION TITLES */
+
 .section-title {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-top: 4rem;
-    background-color: #ffffff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 4rem;
+  color: var(--section-title-color);
+  transition: color 0.3s ease;
 }
+
+
+/*  PAGE */
 
 .page-container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
-  box-sizing: border-box;
+
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
 
-@media (max-width: 768px) {
+/*  ABOUT */
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+
+/*  ABOUT DESCRIPTION */
+
+.about-description {
+  line-height: 1.7;
+  max-width: 1000px;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+
+/*   ABOUT CARDS  */
+
+.para-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-card {
+  margin-top: 1rem;
+
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+
+  padding: 2rem;
+  border-radius: 20px;
+
+  box-shadow: 0 15px 30px var(--shadow);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 50px var(--shadow);
+}
+
+.about-card p {
+  margin-top: 1rem;
+  color: var(--secondary-text);
+  line-height: 1.6;
+}
+
+
+/*  EDUCATION */
+
+.education {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.education-title {
+  font-size: 2.5rem;
+  color: var(--heading-color);
+  margin-bottom: 1.5rem;
+}
+
+.education-item {
+  position: relative;
+
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+  padding-left: 1.5rem;
+
+  border-left: 3px solid var(--accent-color);
+  border-radius: 0 16px 16px 0;
+
+  box-shadow: 0 10px 25px var(--shadow);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/*  EDUCATION HEADER */
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  font-size: 1.5rem;
+  color: var(--heading-color);
+}
+
+
+/*  EDUCATION PERIOD */
+
+.education-period {
+  flex-shrink: 0;
+
+  background: var(--period-bg);
+  color: var(--period-text);
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  border-radius: 999px;
+
+  padding: 0.35rem 0.8rem;
+}
+
+
+/*  EDUCATION LOCATION */
+
+.education-location {
+  margin-top: 0.6rem;
+
+  color: var(--location-color);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+
+/*   EDUCATION DESCRIPTION  */
+
+.education-description {
+  margin-top: 0.7rem;
+
+  color: var(--secondary-text);
+
+  line-height: 1.6;
+}
+
+
+/* RESUME */
+
+.resume-section {
+  margin-top: 4rem;
+
+  background: var(--resume-bg);
+
+  padding: 3rem 2rem;
+
+  border-radius: 20px;
+  border: 1px solid var(--card-border);
+
+  text-align: center;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.resume-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.resume-para {
+  font-size: 1.2rem;
+  color: var(--secondary-text);
+}
+
+
+/* CV BUTTON */
+
+.cv-download {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cv-button {
+  display: inline-block;
+
+  background: var(--accent-color);
+  color: #ffffff;
+
+  text-decoration: none;
+
+  padding: 0.8rem 2.6rem;
+
+  border-radius: 2rem;
+
+  font-weight: 600;
+
+  margin-top: 1rem;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  box-shadow: 0 5px 15px rgba(0, 99, 255, 0.25);
+}
+
+.cv-button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+
+  box-shadow: 0 8px 20px rgba(0, 99, 255, 0.3);
+}
+
+
+/*  BODY  */
+
+body {
+  font-family: "Outfit", sans-serif;
+
+  background: var(--page-bg);
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+
+  color: var(--text-color);
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+
+/* MOBILE  */
+
+@media screen and (max-width: 1000px) {
+  .para-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/*  TABLET  */
+
+@media screen and (max-width: 768px) {
   .page-container {
     flex: 1;
     padding: 0 12px;
@@ -53,15 +391,70 @@ html, body, #root{
 
   .section-title {
     padding-bottom: 1rem;
-}
+    font-size: 2.5rem;
+  }
+
+  .container {
+    padding-top: 1rem;
+  }
+
+  .education-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .education-period {
+    align-self: flex-start;
+  }
+
+  .resume-title {
+    font-size: 2.5rem;
+  }
 }
 
-body {
-  font-family: "outfit";
-  background: var(--page-bg);
-  background-attachment: fixed;
-  min-height: 100vh;
-  width: 100%;
-  color: white;
-}
 
+/*  MOBILE  */
+
+@media screen and (max-width: 650px) {
+  .about {
+    margin-right: 0;
+  }
+
+  .para-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-card {
+    padding: 1.5rem;
+  }
+
+  .education {
+    margin-top: 3rem;
+  }
+
+  .education-title {
+    font-size: 2rem;
+  }
+
+  .education-item {
+    padding: 1.5rem;
+    padding-left: 1.2rem;
+  }
+
+  .education-header {
+    font-size: 1.2rem;
+  }
+
+  .resume-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .resume-title {
+    font-size: 2rem;
+  }
+
+  .resume-para {
+    font-size: 1rem;
+  }
+}
