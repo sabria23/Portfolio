@@ -73,7 +73,9 @@ export default function ProjectPage() {
 
         {project.image && (
           <div className="project-cover-image">
-
+ <p className="project-description">
+            {t(`${projectKey}.description`)}
+          </p>
             <img
               src={project.image}
               alt={t(`${projectKey}.title`)}
@@ -85,9 +87,7 @@ export default function ProjectPage() {
 
         <div>
 
-          <p className="project-description">
-            {t(`${projectKey}.description`)}
-          </p>
+         
 
 
           <div className="desc-link">

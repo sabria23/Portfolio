@@ -15,42 +15,55 @@ body,
 }
 
 
-/* DARK MODE – DEFAULT */
+/* =========================================
+   DARK MODE – DEFAULT
+========================================= */
 
 :root {
+  /* Page */
   --page-bg: radial-gradient(
     125% 125% at 50% 10%,
     #000 50%,
     #0063ff 100%
   );
 
+  /* Text */
   --text-color: #ffffff;
   --heading-color: #ffffff;
   --section-title-color: #ffffff;
+  --muted-text: #c5d4e3;
+  --secondary-text: #c5d4e3;
+  --location-color: #9ca3af;
   --button-text: #ffffff;
 
-
+  /* Cards */
   --card-bg: rgba(255, 255, 255, 0.08);
+  --card-border: rgba(255, 255, 255, 0.12);
+
+  --shadow: rgba(0, 0, 0, 0.5);
+
   --card-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
   --card-shadow-hover: 0 25px 50px rgba(0, 0, 0, 0.6);
 
+  /* Borders */
   --border-color: #e5e7eb;
 
+  /* Accent */
   --accent-color: #8b7cf6;
+  --accent-hover: #7565ed;
 
+  /* Education */
   --period-bg: #e0f7ef;
   --period-text: #007f5f;
 
+  /* Resume */
   --resume-bg: rgb(36, 31, 42);
- --text-color: #ffffff;
-  --heading-color: #ffffff;
-  --muted-text: #c5d4e3;
 
+  /* Buttons */
   --button-bg: #0063ff;
-  --button-text: #ffffff;
-  --button-bg: #09399b;
   --button-bg-hover: #053d79;
   --button-text: #ffffff;
+
   --button-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
   --button-shadow-hover: 0 5px 12px rgba(0, 0, 0, 0.15);
 
@@ -61,22 +74,94 @@ body,
   --contact-secondary-text: #c5d4e3;
   --contact-muted-text: #9ca3af;
   --contact-line: rgba(255, 255, 255, 0.3);
+
+
+  /* =========================================
+     PROJECT DETAIL – DARK MODE
+  ========================================= */
+
+  --project-button-primary: #2563eb;
+  --project-button-primary-hover: #1d4ed8;
+
+  --project-button-secondary-bg: rgba(255, 255, 255, 0.05);
+  --project-button-secondary-border: rgba(255, 255, 255, 0.2);
+  --project-button-secondary-text: #ffffff;
+
+  --project-tag-bg: rgba(255, 255, 255, 0.08);
+  --project-tag-border: rgba(255, 255, 255, 0.12);
+  --project-tag-text: #ffffff;
+
+  --project-card-bg: rgba(255, 255, 255, 0.06);
+  --project-card-border: rgba(255, 255, 255, 0.08);
+
+  --project-image-card-bg: #122236;
+
+  --project-insight-bg: rgb(29, 29, 29);
+  --project-insight-text: #f5f5f5;
+
+  --project-highlight-bg: rgba(255, 255, 255, 0.08);
+  --project-highlight-border: rgba(255, 255, 255, 0.1);
+  --project-highlight-text: #dbeafe;
+
+  --project-link-color: #60a5fa;
+  --project-link-hover: #93c5fd;
+
+  --project-shadow: rgba(0, 0, 0, 0.4);
 }
 
 
+/* =========================================
+   LIGHT MODE
+========================================= */
 
-/* LIGHT MODE */
 [data-theme="light"] {
+  /* Page */
   --page-bg: radial-gradient(
     125% 125% at 50% 10%,
     #ffffff 50%,
     #dceaff 100%
   );
 
+  /* Text */
   --text-color: #111111;
-  --heading-color: #111111;
+  --heading-color: #ffffff;
+  --heading-color-light: rgb(0, 0, 0);
   --section-title-color: #111111;
-  --button-text: #111111;
+  --muted-text: #4b5563;
+  --secondary-text: #4b5563;
+  --location-color: #6b7280;
+  --button-text: #ffffff;
+
+  /* Cards */
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --card-border: rgba(0, 0, 0, 0.08);
+
+  --shadow: rgba(0, 0, 0, 0.1);
+
+  --card-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 25px 50px rgba(0, 0, 0, 0.14);
+
+  /* Borders */
+  --border-color: #d1d5db;
+
+  /* Accent */
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+
+  /* Education */
+  --period-bg: #e0f7ef;
+  --period-text: #007f5f;
+
+  /* Resume */
+  --resume-bg: rgba(255, 255, 255, 0.7);
+
+  /* Buttons */
+  --button-bg: #0063ff;
+  --button-bg-hover: #1d4ed8;
+  --button-text: #ffffff;
+
+  --button-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  --button-shadow-hover: 0 5px 12px rgba(0, 99, 255, 0.2);
 
   /* Contact */
   --contact-bg: rgba(255, 255, 255, 0.35);
@@ -86,16 +171,44 @@ body,
   --contact-muted-text: #6b7280;
   --contact-line: rgba(0, 0, 0, 0.2);
 
-   --text-color: #111111;
-  --heading-color: #111111;
-  --muted-text: #4b5563;
 
-  --button-bg: #0063ff;
-  --button-text: #ffffff;
+  /* =========================================
+     PROJECT DETAIL – LIGHT MODE
+  ========================================= */
+
+  --project-button-primary: #2563eb;
+  --project-button-primary-hover: #1d4ed8;
+
+  --project-button-secondary-bg: rgba(255, 255, 255, 0.8);
+  --project-button-secondary-border: #2563eb;
+  --project-button-secondary-text: #1e40af;
+
+  --project-tag-bg: rgba(37, 99, 235, 0.08);
+  --project-tag-border: rgba(37, 99, 235, 0.18);
+  --project-tag-text: #1e3a8a;
+
+  --project-card-bg: rgba(255, 255, 255, 0.7);
+  --project-card-border: rgba(37, 99, 235, 0.12);
+
+  --project-image-card-bg: #eef4ff;
+
+  --project-insight-bg: rgba(239, 246, 255, 0.9);
+  --project-insight-text: #1f2937;
+
+  --project-highlight-bg: rgba(37, 99, 235, 0.08);
+  --project-highlight-border: rgba(37, 99, 235, 0.15);
+  --project-highlight-text: #1e40af;
+
+  --project-link-color: #2563eb;
+  --project-link-hover: #1d4ed8;
+
+  --project-shadow: rgba(15, 23, 42, 0.15);
 }
 
 
-/*  APP */
+/* =========================================
+   APP
+========================================= */
 
 .app-container {
   min-height: 100%;
@@ -104,7 +217,9 @@ body,
 }
 
 
-/* SECTION TITLES */
+/* =========================================
+   SECTION TITLES
+========================================= */
 
 .section-title {
   font-size: 3rem;
@@ -115,7 +230,9 @@ body,
 }
 
 
-/*  PAGE */
+/* =========================================
+   PAGE
+========================================= */
 
 .page-container {
   max-width: 1200px;
@@ -129,7 +246,9 @@ body,
 }
 
 
-/*  ABOUT */
+/* =========================================
+   ABOUT
+========================================= */
 
 .container {
   max-width: 1200px;
@@ -138,7 +257,9 @@ body,
 }
 
 
-/*  ABOUT DESCRIPTION */
+/* =========================================
+   ABOUT DESCRIPTION
+========================================= */
 
 .about-description {
   line-height: 1.7;
@@ -148,7 +269,9 @@ body,
 }
 
 
-/*   ABOUT CARDS  */
+/* =========================================
+   ABOUT CARDS
+========================================= */
 
 .para-container {
   display: grid;
@@ -190,7 +313,9 @@ body,
 }
 
 
-/*  EDUCATION */
+/* =========================================
+   EDUCATION
+========================================= */
 
 .education {
   margin-top: 4rem;
@@ -230,7 +355,9 @@ body,
 }
 
 
-/*  EDUCATION HEADER */
+/* =========================================
+   EDUCATION HEADER
+========================================= */
 
 .education-header {
   display: flex;
@@ -243,7 +370,9 @@ body,
 }
 
 
-/*  EDUCATION PERIOD */
+/* =========================================
+   EDUCATION PERIOD
+========================================= */
 
 .education-period {
   flex-shrink: 0;
@@ -260,7 +389,9 @@ body,
 }
 
 
-/*  EDUCATION LOCATION */
+/* =========================================
+   EDUCATION LOCATION
+========================================= */
 
 .education-location {
   margin-top: 0.6rem;
@@ -271,7 +402,9 @@ body,
 }
 
 
-/*   EDUCATION DESCRIPTION  */
+/* =========================================
+   EDUCATION DESCRIPTION
+========================================= */
 
 .education-description {
   margin-top: 0.7rem;
@@ -282,7 +415,9 @@ body,
 }
 
 
-/* RESUME */
+/* =========================================
+   RESUME
+========================================= */
 
 .resume-section {
   margin-top: 4rem;
@@ -313,7 +448,9 @@ body,
 }
 
 
-/* CV BUTTON */
+/* =========================================
+   CV BUTTON
+========================================= */
 
 .cv-download {
   margin-top: 2rem;
@@ -352,7 +489,9 @@ body,
 }
 
 
-/*  BODY  */
+/* =========================================
+   BODY
+========================================= */
 
 body {
   font-family: "Outfit", sans-serif;
@@ -371,7 +510,9 @@ body {
 }
 
 
-/* MOBILE  */
+/* =========================================
+   MOBILE
+========================================= */
 
 @media screen and (max-width: 1000px) {
   .para-container {
@@ -380,7 +521,9 @@ body {
 }
 
 
-/*  TABLET  */
+/* =========================================
+   TABLET
+========================================= */
 
 @media screen and (max-width: 768px) {
   .page-container {
@@ -413,7 +556,9 @@ body {
 }
 
 
-/*  MOBILE  */
+/* =========================================
+   MOBILE
+========================================= */
 
 @media screen and (max-width: 650px) {
   .about {

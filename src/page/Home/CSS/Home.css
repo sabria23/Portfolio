@@ -51,14 +51,14 @@
 .main-text h1 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: var(--heading-color);
+  color: var(--heading-color-light);
 }
 
 .main-text h2 {
   font-size: 4.5rem;
   font-weight: 600;
   margin-top: 1rem;
-  color: var(--heading-color);
+  color: var(--heading-color-light);
 }
 
 .main-text p {
