@@ -2,9 +2,9 @@ import projectImages from "./projectImages";
 
 const projects = [
 
-  // ==========================================
+  
   // TELENOR
-  // ==========================================
+  
 
   {
     id: "bachelor-thesis",
@@ -34,6 +34,7 @@ const projects = [
 
       {
         key: "research",
+
         images: [
           projectImages.telenor.affinityMapping,
           projectImages.telenor.personas,
@@ -46,6 +47,7 @@ const projects = [
 
       {
         key: "design",
+
         images: [
           projectImages.telenor.sitemap,
           projectImages.telenor.userFlow,
@@ -83,9 +85,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // STUDY BOOST
-  // ==========================================
+  
 
   {
     id: "studyBoost",
@@ -106,9 +108,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // STUDY PLATFORM
-  // ==========================================
+  
 
   {
     id: "study-platform",
@@ -169,9 +171,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // SPANISH POKER
-  // ==========================================
+  
 
   {
     id: "spanish-poker",
@@ -208,11 +210,11 @@ const projects = [
       },
 
       {
-        key: "realTimeSystem",
+        key: "realTime",
       },
 
       {
-        key: "authenticationSecurity",
+        key: "authentication",
       },
 
       {
@@ -222,9 +224,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // SAMFUNDET
-  // ==========================================
+  
 
   {
     id: "samfundet",
@@ -279,7 +281,7 @@ const projects = [
       },
 
       {
-        key: "designPrototyping",
+        key: "design",
 
         images: [
           projectImages.samfundet.sketch,
@@ -290,7 +292,7 @@ const projects = [
       },
 
       {
-        key: "whatCouldBeImproved",
+        key: "improvements",
       },
 
       {
@@ -306,9 +308,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // BLINK & FIND
-  // ==========================================
+  
 
   {
     id: "blink-find",
@@ -355,9 +357,9 @@ const projects = [
   },
 
 
-  // ==========================================
+  
   // HELSERETT
-  // ==========================================
+  
 
   {
     id: "helserett",
@@ -366,7 +368,11 @@ const projects = [
     tags: [
       "Figma",
       "UI/UX",
+      "User Research",
       "Accessibility",
+      "Prototyping",
+      "Usability Testing",
+      "Responsive Design",
     ],
 
     projectLink: "",
@@ -377,17 +383,8 @@ const projects = [
     roleKey: "projects.helserett.role",
 
     projectType: "design",
-
-    process: [
-      {
-        key: "design",
-
-        images: [
-          projectImages.helseRett.hero,
-        ],
-      },
-    ],
   },
+
 ];
 
 export default projects;

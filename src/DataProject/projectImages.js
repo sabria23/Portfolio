@@ -35,8 +35,16 @@ import blinkFind from "../assets/images/blink&FindApp/blink&Find-bk.png";
 import blinkHeroImg from "../assets/images/blink&FindApp/work-Blink&Find.png";
 
 // HelseRett
-import helseRett from "../assets/images/helseInnApp/helseRett-bk.png";
 import helseRettHeroImg from "../assets/images/helseInnApp/HelseRettApp.png";
+// // import helseRettResearch from "../assets/images/helseInnApp/helseRettResearch.png";
+// import helseRettAffinityMapping from "../assets/images/helseInnApp/helseRettAffinityMapping.png";
+// import helseRettUserFlow from "../assets/images/helseInnApp/helseRettUserFlow.png";
+// // import helseRettSketch from "../assets/images/helseInnApp/helseRettSketch.png";
+// import helseRettLofi from "../assets/images/helseInnApp/helseRettLofi.png";
+// import helseRettHifi from "../assets/images/helseInnApp/helseRettHifi.png";
+// import helseRettAccessibility from "../assets/images/helseInnApp/helseRettAccessibility.png";
+// import helseRettTesting from "../assets/images/helseInnApp/helseRettTesting.png";
+// import helseRettBeforeAfter from "../assets/images/helseInnApp/helseRettBeforeAfter.png";
 
 // Telenor
 import telenor from "../assets/images/telenor/telenorHeroImg.png";
@@ -62,7 +70,7 @@ const projectImages = {
     studyBoost,
     studyPlatform,
     blinkFind,
-    helseRett,
+    helseRett: helseRettHeroImg,
     samfundet,
     telenor,
     poker,
@@ -241,13 +249,57 @@ const projectImages = {
 
   // HELSERETT
 
-  helseRett: {
-
-    hero: {
-      src: helseRettHeroImg,
-      alt: "HelseRett app",
-    },
+ helseRett: {
+  hero: {
+    src: helseRettHeroImg,
+    alt: "HelseRett app",
   },
+
+//   research: {
+//     // src: helseRettResearch,
+//     alt: "HelseRett research",
+//   },
+
+//   affinityMapping: {
+//     src: helseRettAffinityMapping,
+//     alt: "HelseRett affinity mapping",
+//   },
+
+//   userFlow: {
+//     src: helseRettUserFlow,
+//     alt: "HelseRett user flow",
+//   },
+
+//   sketch: {
+//     src: helseRettSketch,
+//     alt: "HelseRett sketches",
+//   },
+
+//   lofi: {
+//     src: helseRettLofi,
+//     alt: "HelseRett low fidelity prototype",
+//   },
+
+//   hifi: {
+//     src: helseRettHifi,
+//     alt: "HelseRett high fidelity prototype",
+//   },
+
+//   accessibility: {
+//     src: helseRettAccessibility,
+//     alt: "HelseRett accessibility",
+//   },
+
+//   testing: {
+//     src: helseRettTesting,
+//     alt: "HelseRett usability testing",
+//   },
+
+//   beforeAfter: {
+//     src: helseRettBeforeAfter,
+//     alt: "HelseRett before and after",
+//   },
+},
 
   // VIDEOS
 

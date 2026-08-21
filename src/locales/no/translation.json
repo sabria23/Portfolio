@@ -351,12 +351,51 @@
         }
       }
     },
-
-    "helserett.no": {
-      "title": "HelseRett.no",
-      "category": "Design",
-      "description": "Designet en tilgjengelig nettside for eldre brukere som utforsker helseteknologi.",
-      "role": "UX-designer"
-    }
+    
+"helserett": {
+  "title": "HelseRett.no",
+  "category": "Design",
+  "description": "Et UX- og interaksjonsdesignprosjekt med fokus på å gjøre helseinformasjon enklere, tryggere og mer tilgjengelig for eldre brukere. Jeg undersøkte brukerbehov og utfordringer knyttet til digitale helsetjenester, og brukte innsikten til å utvikle og teste en brukervennlig løsning.",
+  "role": "UX-designer",
+  "projectGoal": "Målet var å utvikle en digital helsetjeneste som gjør det enklere for eldre brukere å finne, forstå og bruke relevant helseinformasjon.",
+  "targetAudience": "Eldre brukere med varierende digital kompetanse og behov for tydelig, enkel og tilgjengelig helseinformasjon.",
+  "process": [
+    "Research og kartlegging av brukerbehov",
+    "Brukerintervjuer og innsamling av innsikt",
+    "Analyse av utfordringer og behov",
+    "Definering av problemområde",
+    "Informasjonsarkitektur og brukerflyt",
+    "Wireframes og idéutvikling",
+    "Prototyping i Figma",
+    "Brukertesting",
+    "Iterasjon og forbedring av løsningen"
+  ],
+  "methods": [
+    "Brukerintervjuer",
+    "Brukerbehovsanalyse",
+    "Persona",
+    "User journey",
+    "User flow",
+    "Wireframing",
+    "Prototyping",
+    "Brukertesting",
+    "Iterativ design"
+  ],
+  "focus": [
+    "UX-design",
+    "Interaksjonsdesign",
+    "Universell utforming",
+    "Tilgjengelighet",
+    "Eldre brukere",
+    "Helseteknologi",
+    "Brukervennlighet"
+  ],
+  "tools": [
+    "Figma",
+    "FigJam"
+  ],
+  "keyLearnings": "Prosjektet ga meg større forståelse for hvor viktig det er å undersøke brukerens faktiske behov før man begynner å designe. Innsikten fra brukerne påvirket blant annet hvordan informasjon ble strukturert, hvordan navigasjonen ble utformet og hvordan løsningen kunne gjøres mer tilgjengelig.",
+  "outcome": "Resultatet ble en brukersentrert prototype med fokus på tydelig informasjon, enkel navigasjon og tilgjengelighet for eldre brukere."
+}
   }
 } 

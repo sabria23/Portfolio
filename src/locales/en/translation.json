@@ -352,11 +352,50 @@
       }
     },
 
-    "helserett.no": {
-      "title": "HelseRett.no",
-      "category": "Design",
-      "description": "Designed an accessible website for older users exploring health technology.",
-      "role": "UX Designer"
-    }
+"helserett": {
+  "title": "HelseRett.no",
+  "category": "Design",
+  "description": "A UX and interaction design project focused on making health information easier, safer, and more accessible for older users. I explored user needs and challenges related to digital healthcare services and used these insights to develop and test a user-friendly solution.",
+  "role": "UX Designer",
+  "projectGoal": "The goal was to create a digital healthcare service that makes it easier for older users to find, understand, and access relevant health information.",
+  "targetAudience": "Older users with varying levels of digital literacy who need clear, simple, and accessible health information.",
+  "process": [
+    "Research and user needs analysis",
+    "User interviews and insight gathering",
+    "Analysis of user challenges and needs",
+    "Problem definition",
+    "Information architecture and user flows",
+    "Wireframing and ideation",
+    "Prototyping in Figma",
+    "Usability testing",
+    "Iteration and refinement"
+  ],
+  "methods": [
+    "User interviews",
+    "User needs analysis",
+    "Personas",
+    "User journeys",
+    "User flows",
+    "Wireframing",
+    "Prototyping",
+    "Usability testing",
+    "Iterative design"
+  ],
+  "focus": [
+    "UX Design",
+    "Interaction Design",
+    "Universal Design",
+    "Accessibility",
+    "Older Users",
+    "Health Technology",
+    "Usability"
+  ],
+  "tools": [
+    "Figma",
+    "FigJam"
+  ],
+  "keyLearnings": "The project gave me a deeper understanding of the importance of exploring real user needs before starting the design process. Insights from users influenced how information was structured, how navigation was designed, and how the solution could be made more accessible and easier to use.",
+  "outcome": "The result was a user-centered prototype focused on clear information, simple navigation, accessibility, and a more intuitive experience for older users."
+}
   }
 } 
