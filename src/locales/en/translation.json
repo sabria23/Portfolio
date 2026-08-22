@@ -323,34 +323,63 @@
         }
       }
     },
+"blink-find": {
+  "title": "Blink & Find",
+  "category": "Design",
 
-    "blink-find": {
-      "title": "Blink & Find",
-      "category": "Design",
-      "description": "Blink & Find is a multiplayer game where players compete to find hidden objects.",
+  "description": "Blink & Find is a multiplayer game where players compete to find hidden objects. The project focused on creating a simple, intuitive, and engaging experience through clear user flows, visual feedback, and interactive game mechanics.",
 
-      "process": {
-        "problem": {
-          "title": "Problem",
-          "text": "Game concept and user flow exploration."
-        },
+  "role": "UX Designer",
 
-        "design": {
-          "title": "Design",
-          "text": "Wireframes and UI structure."
-        },
+  "projectGoal": "Create an engaging multiplayer game experience that is easy to understand and fun to play, while encouraging interaction and friendly competition between players.",
 
-        "ideas": {
-          "title": "Ideas",
-          "text": "Gameplay ideas and mechanics."
-        },
+  "targetAudience": "Players who enjoy casual multiplayer games and short, competitive experiences that are easy to pick up and play.",
 
-        "brainstorming": {
-          "title": "Brainstorming",
-          "text": "Feature brainstorming and iteration."
-        }
-      }
+  "tools": [
+    "Figma"
+  ],
+
+  "keyLearnings": "I learned how to structure a game experience around clear user flows and simple interactions. The project also helped me understand how visual feedback and interaction design can contribute to a more engaging gameplay experience.",
+
+  "outcome": "The project resulted in a multiplayer game concept with a clear user flow, interactive elements, and a visual interface designed to support quick and engaging gameplay.",
+
+  "process": {
+    "problem": {
+      "title": "Problem",
+      "text": "Explored how a simple game concept could become engaging for multiple players while keeping the experience easy to understand."
     },
+
+    "brainstorming": {
+      "title": "Brainstorming",
+      "text": "Generated ideas around game mechanics, features, interactions, and ways to make the experience fun and competitive."
+    },
+
+    "ideas": {
+      "title": "Ideas",
+      "text": "Developed and evaluated different ideas for gameplay, scoring, time limits, and visual feedback."
+    },
+
+    "userflow": {
+      "title": "User Flow",
+      "text": "Mapped how players move through the experience, from starting the game to playing a round and viewing the results."
+    },
+
+    "wireframes": {
+      "title": "Wireframes",
+      "text": "Created wireframes to explore the layout, navigation, and placement of key elements before moving into the visual design."
+    },
+
+    "design": {
+      "title": "Design",
+      "text": "Designed the interface with a focus on clear hierarchy, simple navigation, and visual elements that support the gameplay experience."
+    },
+
+    "interaction": {
+      "title": "Interaction",
+      "text": "Explored how interactive elements and visual feedback could make the game feel more responsive, intuitive, and engaging."
+    }
+  }
+},
 
 "helserett": {
   "title": "HelseRett.no",

@@ -29,12 +29,13 @@ function App() {
                 <div className="page-container">
                   <ProjectPage />
                 </div>
-                <Footer />
+             
               </>
             }
           />
 
-        </Routes>
+        </Routes>   
+        <Footer />
       </div>
     </Router>
   );

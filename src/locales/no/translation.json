@@ -323,34 +323,63 @@
         }
       }
     },
+"blink-find": {
+  "title": "Blink & Find",
+  "category": "Design",
 
-    "blink-find": {
-      "title": "Blink & Find",
-      "category": "Design",
-      "description": "Blink & Find er et flerspillerspill hvor spillerne konkurrerer om å finne skjulte objekter.",
+  "description": "Blink & Find er et flerspillerspill hvor spillerne konkurrerer om å finne skjulte objekter. Prosjektet fokuserte på å skape en enkel, intuitiv og engasjerende opplevelse gjennom tydelig brukerflyt, visuell feedback og interaktive spillmekanikker.",
 
-      "process": {
-        "problem": {
-          "title": "Problem",
-          "text": "Utforsking av spillkonsept og brukerflyt."
-        },
+  "role": "UX-designer",
 
-        "design": {
-          "title": "Design",
-          "text": "Wireframes og UI-struktur."
-        },
+  "projectGoal": "Å skape en engasjerende flerspilleropplevelse som er enkel å forstå og morsom å spille, samtidig som spillet legger til rette for interaksjon og vennskapelig konkurranse mellom spillerne.",
 
-        "ideas": {
-          "title": "Ideer",
-          "text": "Ideer til spillmekanikk og funksjoner."
-        },
+  "targetAudience": "Spillere som liker enkle flerspillerspill og korte, konkurransepregede spillopplevelser som er enkle å lære og komme i gang med.",
 
-        "brainstorming": {
-          "title": "Brainstorming",
-          "text": "Idémyldring rundt funksjoner og iterasjon."
-        }
-      }
+  "tools": [
+    "Figma"
+  ],
+
+  "keyLearnings": "Jeg lærte hvordan en spillopplevelse kan struktureres rundt tydelig brukerflyt og enkle interaksjoner. Prosjektet ga meg også erfaring med hvordan visuell feedback og interaksjonsdesign kan bidra til en mer engasjerende spillopplevelse.",
+
+  "outcome": "Prosjektet resulterte i et flerspillerspill med tydelig brukerflyt, interaktive elementer og et visuelt grensesnitt designet for en rask og engasjerende spillopplevelse.",
+
+  "process": {
+    "problem": {
+      "title": "Problem",
+      "text": "Utforsket hvordan et enkelt spillkonsept kunne bli engasjerende for flere spillere, samtidig som opplevelsen skulle være lett å forstå."
     },
+
+    "brainstorming": {
+      "title": "Brainstorming",
+      "text": "Idémyldring rundt spillmekanikk, funksjoner, interaksjoner og hvordan opplevelsen kunne bli morsom og konkurransepreget."
+    },
+
+    "ideas": {
+      "title": "Ideer",
+      "text": "Utviklet og vurderte ulike ideer for gameplay, poengsystem, tidsbegrensninger og visuell feedback."
+    },
+
+    "userflow": {
+      "title": "Brukerflyt",
+      "text": "Kartla hvordan spillerne beveger seg gjennom opplevelsen, fra oppstart av spillet til selve spillrunden og visning av resultatet."
+    },
+
+    "wireframes": {
+      "title": "Wireframes",
+      "text": "Lagde wireframes for å utforske layout, navigasjon og plassering av sentrale elementer før den visuelle designfasen."
+    },
+
+    "design": {
+      "title": "Design",
+      "text": "Utformet grensesnittet med fokus på tydelig hierarki, enkel navigasjon og visuelle elementer som støtter spillopplevelsen."
+    },
+
+    "interaction": {
+      "title": "Interaksjon",
+      "text": "Utforsket hvordan interaktive elementer og visuell feedback kunne gjøre spillet mer responsivt, intuitivt og engasjerende."
+    }
+  }
+},
     
 "helserett": {
   "title": "HelseRett.no",

@@ -307,55 +307,58 @@ const projects = [
     ],
   },
 
+// BLINK & FIND
 
-  
-  // BLINK & FIND
-  
+{
+  id: "blink-find",
+  image: projectImages.covers.blinkFind,
 
-  {
-    id: "blink-find",
-    image: projectImages.covers.blinkFind,
+  tags: [
+    "Figma",
+    "UI/UX",
+    "Game Design",
+  ],
 
-    tags: [
-      "Figma",
-      "UI/UX",
-      "Game Design",
-    ],
+  projectLink: "",
+  demo: "",
 
-    projectLink: "",
-    demo: "",
+  type: "Group",
+  roleKey: "projects.blink-find.role",
 
-    type: "Group",
+  projectType: "design",
 
-    roleKey: "projects.blink-find.role",
+  video: projectImages.videos.blinkFind,
 
-    projectType: "design",
+  process: [
+    {
+      key: "problem",
+    },
 
-    video: projectImages.videos.blinkFind,
+    {
+      key: "brainstorming",
+    },
 
-    process: [
-      {
-        key: "problem",
-      },
+    {
+      key: "ideas",
+    },
 
-      {
-        key: "design",
+    {
+      key: "userflow",
+    },
 
-        images: [
-          projectImages.blinkFind.design,
-        ],
-      },
+    {
+      key: "wireframes",
+    },
 
-      {
-        key: "ideas",
-      },
+    {
+      key: "design",
+    },
 
-      {
-        key: "brainstorming",
-      },
-    ],
-  },
-
+    {
+      key: "interaction",
+    },
+  ],
+},
 
   
   // HELSERETT
